@@ -1,90 +1,18 @@
 <template>
   <v-app dark>
-    <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant="miniVariant"
-      :clipped="clipped"
-      fixed
-      app
-    >
-      <v-list>
-        <v-list-item
-          v-for="(item, i) in items"
-          :key="i"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-    <v-app-bar
-      :clipped-left="clipped"
-      fixed
-      app
-    >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="fixed = !fixed"
-      >
-        <v-icon>mdi-minus</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title" />
-      <v-spacer />
-      <v-btn
-        icon
-        @click.stop="rightDrawer = !rightDrawer"
-      >
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
-    </v-app-bar>
-    <v-content>
-      <v-container>
+    <v-content class='main'>
+      <v-flex class="video-container">
+        <div class="color-overlay"></div>
+        <video autoplay loop muted v-if="showVideo">
+          <source src="videos/matt-test-bw.mp4" format="mp4"></source>
+        </video>
+      </v-flex>
+      <v-flex class="header"><div></div></v-flex>
+      <v-flex class="nuxt">
+        <v-flex sm12 md12 lg6 cats>CATS</v-flex>
         <nuxt />
-      </v-container>
+      </v-flex>
     </v-content>
-    <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="right"
-      temporary
-      fixed
-    >
-      <v-list>
-        <v-list-item @click.native="right = !right">
-          <v-list-item-action>
-            <v-icon light>
-              mdi-repeat
-            </v-icon>
-          </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-    <v-footer
-      :fixed="fixed"
-      app
-    >
-      <span>&copy; 2019</span>
-    </v-footer>
   </v-app>
 </template>
 
@@ -92,6 +20,7 @@
 export default {
   data () {
     return {
+      showVideo: true,
       clipped: false,
       drawer: false,
       fixed: false,
@@ -110,8 +39,49 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'example'
     }
   }
 }
 </script>
+<style lang="scss">
+  .header {
+    height: 8.5rem;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+    background-size: 17rem;
+    background-position: right 20px bottom;
+    background-image: url('/images/farwest-freestyle-logo.svg');
+    background-repeat: no-repeat;
+  }
+  .main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+  }
+  .color-overlay {
+    background-color: black;
+    opacity: .1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index:1;
+  }
+  .video-container {
+    position: absolute;
+    top:0;
+    left: 0;
+  }
+  .nuxt {
+    border: 1px solid red;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    z-index:20;
+  }
+</style>
