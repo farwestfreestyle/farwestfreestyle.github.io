@@ -25,6 +25,7 @@
            <div class="hdr">VOLUNTEERS</div>
            <p>Our events are organized by a board made up of parent volunteers from various freestyle teams. This group works with competitor teams and the USSA to schedule and organize our events.</p>
            <p>We rely solely on the support of parent volunteers to assist with the numerous jobs required to put on a good event, which is why all parents of competitors are encouraged to volunteer.</p>
+           <p>sponsors go here</p>
         </v-col>
       </v-row>
     </v-container>
