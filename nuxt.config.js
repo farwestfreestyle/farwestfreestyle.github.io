@@ -18,6 +18,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  store: 'Modules',
   /*
   ** Customize the progress-bar color
   */
