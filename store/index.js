@@ -1,5 +1,41 @@
 
 export const state = () => ({
+  events: [
+    {
+      name: 'Squaw Valley',
+      details: 'This will be a Friday, Saturday event',
+      start: '2020-01-03',
+      end: '2020-01-04',
+      color: 'blue'
+    },
+    {
+      name: 'Northstar',
+      details: '',
+      start: '2020-01-25',
+      end: '2020-01-26',
+      color: 'green'
+    },
+    {
+      name: 'Squaw Valley',
+      details: '',
+      start: '2020-02-01',
+      end: '2020-02-02',
+      color: 'blue'
+    },
+    {
+      name: "Northstar",
+      details: "Divisional Championships",
+      start: "2020-02-22",
+      end: "2020-02-23",
+      color: "green"
+    },
+    {
+      name: "Squaw Valley",
+      details: "Spring Event",
+      start: "2020-04-04",
+      end: "2020-04-05"
+    }
+  ],
   sections: { 
     about: {
       title: "About",
@@ -43,6 +79,9 @@ export const state = () => ({
 });
 
 export const getters = {
+  events: (state, getters) => {
+    return state.events;
+  },
   sections: (state, getters) => { 
     return state.sections;
   },
