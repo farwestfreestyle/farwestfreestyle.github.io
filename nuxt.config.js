@@ -1,5 +1,6 @@
-import colors from 'vuetify/es5/util/colors'
-
+import colors from 'vuetify/es5/util/colors';
+import webpack from 'webpack';
+import moment from 'moment';
 export default {
   mode: 'universal',
   /*
@@ -79,6 +80,13 @@ export default {
   ** Build configuration
   */
   build: {
+    plugins: [
+      new webpack.DefinePlugin({
+        'process.env': {
+          'TIMESTAMP': '`${new Date()}`' 
+        }
+      })
+    ],
     /*
     ** You can extend webpack config here
     */

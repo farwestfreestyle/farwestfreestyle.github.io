@@ -4,7 +4,7 @@
       <v-col sm="12" md="4" class="pa-4 mt-6 d-none d-md-flex">
         <LefthandNav section="events"></LefthandNav>
       </v-col>
-      <v-col sm="12" md="8">
+      <v-col sm="12" md="8" height="485px">
         <div class="hdr">Schedule & Results</div>
         <hr class="hrr"></hr>
         <v-sheet> 

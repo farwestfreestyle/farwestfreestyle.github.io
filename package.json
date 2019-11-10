@@ -8,7 +8,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
+    "generate": "cross-env TIMESTAMP=foobar nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "test": "ava",
     "test:unit": "cross-env TEST=unit ava --config unit.config.js",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^6.0.3",
     "moment": "^2.24.0",
     "nuxt": "^2.0.0",
     "vuex": "^3.1.1"

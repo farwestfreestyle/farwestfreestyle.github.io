@@ -18,7 +18,7 @@
 	</v-navigation-drawer>
     <v-toolbar width="100%" color="#728EBF" fixed>
 			<v-app-bar-nav-icon @click.stopall="drawer = !drawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
-      <v-toolbar-title @click="goHome" class="top-logo"><img src="/images/bear-logo.svg"></v-toolbar-title>
+      <v-toolbar-title @click="goHome" class="top-logo"><div></div></v-toolbar-title>
       <v-spacer></v-spacer>
 			<v-toolbar-items class="hidden-sm-and-down">
 				<v-menu offset-y v-for="(section,s) in sections" :key="s">
@@ -42,9 +42,27 @@
         </v-row>
 			</v-container>
 		</v-content>
+    <footer>
+      <v-container>
+        <v-row justify="center" align="center" class="sponsors">
+          <a href="https://shanemcconkey.org/"><v-img contain src="/images/sm-shane.png" max-height="100" max-width="100" border="0"></v-img></a>
+          <a href="https://www.aon.com"><v-img contain max-height="100" max-width="100" src="/images/sm-aon.png" border="0"></v-img></a>
+          <a href="https://www.tahoegetaways.com"><v-img contain max-height="100" max-width="150" src="/images/sm-tahoe-getaways.png" border="0"></v-img></a>
+          <a href="https://squawalpine.com/events-things-do/wildflour-baking-company"><v-img contain max-height="100" max-width="150" src="/images/sm-wildfour-bw.png" border="0"></v-img></a>
+          <a href="https://charitysmith.org"><v-img contain max-height="100" max-width="180"src="/images/sm-charitysmith.png" border="0"></v-img></a>
+        </v-row>
+        <v-row>
+          <v-col cols="12" sm="6" class="sm-text">&copy; FARWEST FREESTYLE 2019-2020 All Rights Reserved.</v-col>
+          <v-col cols="12" sm="6" class="version">VERSION {{ version }}@{{ timestamp }}</v-col>
+        </v-row>
+      </v-container>
+    </footer>
   </v-app>
 </template>
 <script>
+import pkg from '../package.json';
+console.log('env', process.env);
+
 export default {
 	data: () => ({
 		drawer: false,
@@ -62,6 +80,12 @@ export default {
     }
   },
   computed: {
+    version () {
+      return pkg.version;
+    },
+    timestamp () {
+      return process.env.TIMESTAMP;
+    },
     sections() {
       return this.$store.getters.sections;
     }
@@ -88,7 +112,6 @@ export default {
   }
   .main-area {
     background-color: #5B677A;
-    min-height:400px;
   }
   .bgcolor {
     background-color: #E8F0FF;
@@ -117,5 +140,33 @@ export default {
   }
   .top-logo {
     cursor: pointer;
+    & > div {
+      height: 55px;
+      width: 7rem;
+      background-image:url("/images/bear-logo-skis-1.0.0.svg");
+      background-repeat: no-repeat;
+      background-size: 6.5rem;
+      background-position: center center;
+    }
+  }
+  footer {
+    background-color: #EDEDED;
+    .version {
+      text-align:right;
+      font-size: 60%;
+      color: #CCCCCC;
+    }
+    .sm-text {
+      color: #5B677A;
+      font-size: 70%;
+    }
+    .sponsors div {
+      margin: 5px;
+      cursor: pointer;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1.0;
+      }
+    }
   }
 </style>
