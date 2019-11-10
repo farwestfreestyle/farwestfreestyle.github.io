@@ -1,13 +1,13 @@
 <template>
-  <v-container style="min-height:400px">
+  <v-container style="min-height:525px">
     <v-row>
       <v-col sm="12" md="4" class="pa-4 mt-6 d-none d-md-flex">
         <LefthandNav section="events"></LefthandNav>
       </v-col>
-      <v-col sm="12" md="8" height="485px">
+      <v-col sm="12" md="8">
         <div class="hdr">Schedule & Results</div>
         <hr class="hrr"></hr>
-        <v-sheet> 
+        <v-sheet height="360"> 
 					<v-toolbar flat color="#728EBF">
 						<v-btn outlined class="mr-4" @click="setToday">Today</v-btn>
 						<v-btn fab text small @click="prev">
