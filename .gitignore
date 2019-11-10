@@ -93,3 +93,5 @@ sw.*
 *.mp4
 *.HEIC
 *.heic
+
+dist
