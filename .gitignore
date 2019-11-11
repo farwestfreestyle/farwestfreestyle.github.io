@@ -94,4 +94,4 @@ sw.*
 *.HEIC
 *.heic
 
-dist
+dist/
