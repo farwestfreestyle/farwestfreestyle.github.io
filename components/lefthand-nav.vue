@@ -18,6 +18,7 @@ export default {
   },
   methods: {
     isSelected(item) {
+      console.log('isSelected', item.link, this.$route.path);
       const bool = item.link == this.$route.path;
       return bool;
     },
