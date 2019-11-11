@@ -1,13 +1,5 @@
 <template>
   <div class="home-cards">
-    <v-carousel hide-delimiter-background show-arrows-on-hover class="hidden-sm-and-down">
-      <v-carousel-item v-for="(item,i) in items"
-        :key="i"
-        :src="item.src"
-        reverse-transition="fade-transition"
-        transition="fade-transition">
-      </v-carousel-item>
-    </v-carousel>
     <v-container>
       <v-row>
         <v-col cols="12" md="4">
@@ -40,7 +32,6 @@ export default {
   data () {
     return {
       msg: '',
-      items: [{src:'/images/squaw-01.jpg'}, { src: '/images/squaw-02.jpg' }]
     }
   },
   mounted () {

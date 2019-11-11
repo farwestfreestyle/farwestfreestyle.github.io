@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app light>
     <v-navigation-drawer
       class="hidden-md-and-up"
       v-model="drawer"
@@ -34,7 +34,18 @@
 			</v-toolbar-items>
     </v-toolbar>
 		<v-content>
-			<v-container fluid class="main-area">
+      <v-container fluid class="ma-0 pa-0">
+        <div class="top-shadow"></div>
+        <v-carousel height="600" hide-delimiter-background show-arrows-on-hover class="hidden-sm-and-down">
+          <v-carousel-item v-for="(item,i) in items"
+            :key="i"
+            :src="item.src"
+            reverse-transition="fade-transition"
+            transition="fade-transition">
+          </v-carousel-item>
+        </v-carousel>
+      </v-container>
+			<v-container fluid class="main-area pa-0">
 				<v-row no-gutters justify="center">
           <v-col columns="12" xs="12" md="10" lg="8" class="bgcolor">
             <nuxt />
@@ -67,6 +78,12 @@ export default {
 	data: () => ({
 		drawer: false,
 		group: null,
+    items: [
+      {src:'/images/hero/squaw-01.jpg'},
+      {src:'/images/hero/squaw-02.jpg'},
+      {src:'/images/hero/squaw-03.jpg'},
+      {src:'/images/hero/squaw-04.jpg'}
+    ]
 	}),
 	watch: {
 		group () {
@@ -94,6 +111,15 @@ export default {
 
 </script>
 <style lang="scss">
+  .top-shadow {
+    opacity: .5;
+    height: 10px;
+    width: 100%;
+    background-image: linear-gradient(#222, transparent);
+    position:absolute;
+    z-index: 1;
+    top: 0px;
+  }
   .v-toolbar {
     flex: 0 1 auto !important;
   }
@@ -111,10 +137,10 @@ export default {
     color: black;
   }
   .main-area {
-    background-color: #5B677A;
+    background-color: #DDD;
   }
   .bgcolor {
-    background-color: #E8F0FF;
+    background-color: white;
   }
   .v-toolbar__title img {
     height: 45px;
@@ -150,7 +176,8 @@ export default {
     }
   }
   footer {
-    background-color: #EDEDED;
+    border-top:1px solid #CCC;
+    background-color: white;
     .version {
       text-align:right;
       font-size: 60%;

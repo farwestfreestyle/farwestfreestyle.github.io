@@ -1,5 +1,5 @@
 <template>
-  <v-container style="min-height:400px">
+  <v-container style="min-height:800px">
     <v-row>
       <v-col sm="12" md="4" class="pa-4 mt-6 d-none d-md-flex">
         <LefthandNav section="events"></LefthandNav>
@@ -7,7 +7,9 @@
       <v-col sm="12" md="8">
         <div class="hdr">Scoring</div>
         <hr class="hrr"></hr>
-        <p>scoring</p>
+        <p>After an event, scores are reviewed and checked for errors by the head judge and Team coaches
+        Once approved, scores are transferred to U.S. Ski & Snowboard by the event scorekeeper. Competitors may then log into U.S. Ski & Snowboard and see their updated FSSP scores.</p>
+        <p>For information about qualifying for Junior Nationals, access the <a href="https://my.ussa.org/myussa">U.S. Ski & Snowboard here.</a></p>
       </v-col>
     </v-row>
   </v-container>
@@ -16,7 +18,7 @@
 import LefthandNav from '@/components/lefthand-nav';
 
 export default {
-  layout: 'index',
+  layout: 'secondary',
   components: {
     LefthandNav
   },

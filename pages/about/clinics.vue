@@ -1,5 +1,8 @@
 <template>
-  <v-container style="min-height:400px">
+  <v-container style="min-height:750px">
+    <v-row align="center" justify="center">
+      <v-img height="300" src="/images/clinics-hero-image.jpg"></v-img>
+    </v-row>
     <v-row>
       <v-col sm="12" md="4" class="pa-4 mt-6 d-none d-md-flex">
         <LefthandNav section="about"></LefthandNav>
@@ -16,7 +19,7 @@
 import LefthandNav from '@/components/lefthand-nav';
 
 export default {
-  layout: 'index',
+  layout: 'secondary',
   components: {
     LefthandNav
   },

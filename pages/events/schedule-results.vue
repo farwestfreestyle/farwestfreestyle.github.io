@@ -1,5 +1,5 @@
 <template>
-  <v-container style="min-height:525px">
+  <v-container style="min-height:800px">
     <v-row>
       <v-col sm="12" md="4" class="pa-4 mt-6 d-none d-md-flex">
         <LefthandNav section="events"></LefthandNav>
@@ -73,7 +73,7 @@ import LefthandNav from '@/components/lefthand-nav';
 import moment from 'moment';
 
 export default {
-  layout: 'index',
+  layout: 'secondary',
   components: {
     LefthandNav
   },
