@@ -50,7 +50,9 @@
 								<v-spacer></v-spacer>
 							</v-toolbar>
 							<v-card-text>
-								<span v-html="selectedEvent.details"></span>
+                <div class="calendar-details-title" v-html="selectedEvent.title"></div>
+								<div class="calendar-details" v-html="selectedEvent.details"></div>
+								<div class="calendar-details-access" v-html="selectedEvent.access"></div>
 							</v-card-text>
 							<v-card-actions>
 								<v-btn
@@ -176,5 +178,11 @@ export default {
   }
   .selected:hover > div {
     text-decoration: none !important;
+  }
+  .calendar-details-title, .calendar-details, .calendar-details-access {
+    color: black !important;
+  }
+  .calendar-details-title {
+    font-weight: bold;
   }
 </style>

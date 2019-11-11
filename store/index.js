@@ -3,37 +3,48 @@ export const state = () => ({
   events: [
     {
       name: 'Squaw Valley',
-      details: 'This will be a Friday, Saturday event',
+      title: 'Mogul Event #1 @ Squaw Valley',
+      details: 'This will be a Friday, Saturday event.',
+      access: 'Run TBD',
       start: '2020-01-03',
       end: '2020-01-04',
       color: 'blue'
     },
     {
       name: 'Northstar',
-      details: '',
+      title: 'Farwest Mogul Event #2 @ Northstar',
+      details: 'Please arrive early for training.',
+      access: 'Run TBD',
       start: '2020-01-25',
       end: '2020-01-26',
       color: 'green'
     },
     {
       name: 'Squaw Valley',
-      details: '',
+      title: 'Farwest Mogul Event #3 @ Squaw Valley',
+      details: 'Please arrive early for training.',
+      access: 'Run TBD',
       start: '2020-02-01',
       end: '2020-02-02',
       color: 'blue'
     },
     {
-      name: "Northstar",
-      details: "Divisional Championships",
+      name: 'Northstar',
+      title: 'Divisional Championships',
+      details: 'Divisional Champs at Northstar',
+      access: 'Run TBD',
       start: "2020-02-22",
       end: "2020-02-23",
       color: "green"
     },
     {
       name: "Squaw Valley",
-      details: "Spring Event",
+      title: 'Farwest Spring Mogul Event',
+      details: "Final event of the year",
+      access: 'Run TBD',
       start: "2020-04-04",
-      end: "2020-04-05"
+      end: "2020-04-05",
+      color: 'blue'
     }
   ],
   sections: { 
