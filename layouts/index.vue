@@ -35,7 +35,12 @@
     </v-toolbar>
 		<v-content>
       <v-container fluid class="ma-0 pa-0">
-        <div class="top-shadow"></div>
+        <div class="top-shadow hidden-sm-and-down"></div>
+        <div class="show-title hidden-sm-and-down">
+          <div class="pb-0 mb-0">{{ showTitleHeadline }}</div>
+          <div class="sub">{{ showTitleSubtitle }}</div>
+          <div class="mt-3"><v-btn color="primary" large>REGISTER NOW</v-btn></div>
+        </div>
         <v-carousel height="600" hide-delimiter-background show-arrows-on-hover class="hidden-sm-and-down">
           <v-carousel-item v-for="(item,i) in items"
             :key="i"
@@ -97,6 +102,21 @@ export default {
     }
   },
   computed: {
+    showTitleHeadline () {
+      return 'CALLING ALL RIPPERS';
+    },
+    showTitleSubtitle () {
+      return '2020 Schedule Posted!';
+    },
+    showTitleAction () {
+      return true;
+    },
+    showTitleNuxt () {
+      return false;
+    },
+    showTitleLink () {
+      return 'https://www.google.com';
+    },
     version () {
       return pkg.version;
     },
@@ -111,6 +131,25 @@ export default {
 
 </script>
 <style lang="scss">
+  .show-title {
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 60px;
+    & > div:first-child {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 700;
+      font-size: 310%;
+      color: black;
+    }
+    & > div.sub {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 800;
+      font-size: 175%;
+      color: black;
+      margin-top: -10px;
+    }
+  }
   .top-shadow {
     opacity: .5;
     height: 10px;

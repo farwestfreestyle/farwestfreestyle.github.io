@@ -15,8 +15,14 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap' },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,800|Titillium+Web:600&display=swap' },
+      { rel: 'apple-touch-icon-precomposed', sizes: '57x57', href: 'favicon-144.png' },
+      { rel: 'apple-touch-icon-precomposed', sizes: '72x72', href: 'favicon-144.png' },
+      { rel: 'apple-touch-icon-precomposed', sizes: '114x114', href: 'favicon-144.png' },
+      { rel: 'apple-touch-icon-precomposed', sizes: '144x144', href: 'favicon-144.png' },
+      { rel: 'icon', type: 'image/vnd.microsoft.icon', sizes: '32x32 48x48', href: 'favicon.ico' },
+      { rel: 'icon', sizes: '128x128', href: 'favicon.icns' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
     ]
   },
   store: 'Modules',
