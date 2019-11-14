@@ -69,7 +69,7 @@
         </v-row>
         <v-row>
           <v-col cols="12" sm="6" class="sm-text">&copy; FARWEST FREESTYLE 2019-2020 All Rights Reserved.</v-col>
-          <v-col cols="12" sm="6" class="version">VERSION {{ version }}@{{ timestamp }}</v-col>
+          <v-col cols="12" sm="6" class="version">VERSION {{ version }}</v-col>
         </v-row>
       </v-container>
     </footer>
