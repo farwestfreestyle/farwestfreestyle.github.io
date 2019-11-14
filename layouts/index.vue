@@ -39,7 +39,7 @@
         <div class="show-title hidden-sm-and-down">
           <div class="pb-0 mb-0">{{ showTitleHeadline }}</div>
           <div class="sub">{{ showTitleSubtitle }}</div>
-          <div class="mt-3"><v-btn color="primary" large href="https://my.ussa.org/myussa">REGISTER NOW</v-btn></div>
+          <div class="mt-3"><v-btn color="primary" large nuxt to="/events/schedule-results">VIEW SCHEDULE</v-btn></div>
         </div>
         <v-carousel height="600" hide-delimiter-background show-arrows-on-hover class="hidden-sm-and-down">
           <v-carousel-item v-for="(item,i) in items"
