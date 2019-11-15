@@ -66,6 +66,9 @@
           <a href="https://www.tahoegetaways.com"><v-img contain max-height="100" max-width="150" src="/images/sm-tahoe-getaways.png" border="0"></v-img></a>
           <a href="https://squawalpine.com/events-things-do/wildflour-baking-company"><v-img contain max-height="100" max-width="150" src="/images/sm-wildfour-bw.png" border="0"></v-img></a>
           <a href="https://charitysmith.org"><v-img contain max-height="100" max-width="180"src="/images/sm-charitysmith.png" border="0"></v-img></a>
+          <v-img contain max-height="50" max-width="180"src="/images/sm-ajax-health.png" border="0"></v-img>
+          <a href="https://www.swifturgentclinic.com"><v-img contain max-height="100" max-width="180"src="/images/sm-swift-urgent-care.png" border="0"></v-img></a>
+          test
         </v-row>
         <v-row>
           <v-col cols="12" sm="6" class="sm-text">&copy; FARWEST FREESTYLE 2019-2020 All Rights Reserved.</v-col>
