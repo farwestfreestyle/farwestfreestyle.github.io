@@ -89,7 +89,7 @@ export default {
     plugins: [
       new webpack.DefinePlugin({
         'process.env': {
-          'TIMESTAMP': '`${process.env.TIMESTAMP}`' 
+          'foo': '"bar"'
         }
       })
     ],

@@ -61,7 +61,6 @@
 </template>
 <script>
 import pkg from '../package.json';
-console.log('env', process.env);
 
 export default {
 	data: () => ({
@@ -84,7 +83,7 @@ export default {
       return pkg.version;
     },
     timestamp () {
-      return process.env.TIMESTAMP;
+      return "";
     },
     sections() {
       return this.$store.getters.sections;
