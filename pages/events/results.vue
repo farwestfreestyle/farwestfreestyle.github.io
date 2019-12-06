@@ -7,7 +7,7 @@
       <v-col sm="12" md="8">
         <div class="hdr">Results</div>
         <hr class="hrr"></hr>
-        <p>After an event, scores are reviewed and checked for errors by the head judge and Team coaches
+        <p>After an event, scores are reviewed and checked for errors by the head judge and team coaches.
         Once approved, scores are transferred to U.S. Ski & Snowboard by the event scorekeeper. </p>
         <p>Results will be posted here.</p>
       </v-col>

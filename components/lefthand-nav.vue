@@ -18,7 +18,7 @@ export default {
       return this.$store.getters.getSection(this.section).links;
     },
     isEventsPage() {
-      return this.$route.path === '/events/schedule-results';
+      return this.$route.path === '/events/schedule';
     }
   },
   methods: {

@@ -5,7 +5,7 @@
         <LefthandNav section="events"></LefthandNav>
       </v-col>
       <v-col sm="12" md="8">
-        <div class="hdr">Schedule & Results</div>
+        <div class="hdr">Schedule</div>
         <hr class="hrr"></hr>
         <v-sheet height="360"> 
 					<v-toolbar flat color="#728EBF">
