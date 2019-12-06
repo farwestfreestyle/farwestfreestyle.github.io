@@ -53,7 +53,8 @@ export const state = () => ({
       links: [
         { title: "Athletes", link: "/get-started/athletes" },
         { title: "Membership & Licenses", link: "/get-started/membership-licenses" },
-        { title: "Parents", link: "/get-started/parents" }
+        { title: "Parents", link: "/get-started/parents" },
+        { title: "Become and Official", link: "/get-started/become-an-official" }
       ]
     },
     events: {
@@ -61,7 +62,6 @@ export const state = () => ({
       icon: 'events-icon',
       links: [
         { title: "Registration", link: "/events/registration" },
-        { title: "Volunteer & Support", link: "/events/volunteer" },
         { title: "Scoring", link: "/events/scoring" },
         { title: "Schedule & Results", link: "/events/schedule-results" }
       ]

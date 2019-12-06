@@ -7,17 +7,13 @@
         </v-col>
         <v-col cols="12" xs="12" md="8">
           <div class="hdr">WELCOME</div>
-          <p>Far West Freestyle is the western division of the United States Ski and Snowboard Association (USSA).</p>
-          <p>We sanction, organize, finance and host amateur level freestyle ski events in, and around, the Lake Tahoe area.</p>
-           <hr class="hrr"></hr>
-          <div class="hdr">ABOUT</div>
-          <p>Our events are held at Ski areas such as Heavenly Valley, Squaw Valley, Boreal, Sugar Bowl and Sierra at Tahoe. Athletes compete in age ranges from as young as 7 years of age up through their early 20s. We also have adults competing at a Master's level in Far West events.</p>
-          <p>Our competitive events are in Moguls, Dual Moguls, Slopestyle and Half-pipe, and Big Air.</p>
-           <hr class="hrr"></hr>
-           <div class="hdr">VOLUNTEERS</div>
-           <p>Our events are organized by a board made up of parent volunteers from various freestyle teams. This group works with competitor teams and the USSA to schedule and organize our events.</p>
-           <p>We rely solely on the support of parent volunteers to assist with the numerous jobs required to put on a good event, which is why all parents of competitors are encouraged to volunteer.</p>
-           <p>sponsors go here</p>
+            <p>Far West Freestyle is the Western division of US Ski and Snowboard, formerly USSA, the US national skiing and snowboarding organizing body as sanctioned by the United States Olympic Committee.</p>
+            <p>Far West Freestyle is a not-for-profit 501(c) (3) organization dedicated to supporting the training and development of competitive freestyle moguls athletes through the organization and promotion of freestyle moguls skiing events in the Sierra Nevada mountains.</p>
+            <p>Over its 30+ year history, Far West Freestyle has been the home to many US Freestyle Ski Team and Olympic athletes.</p>
+            <p>Our events are held at ski areas in the Lake Tahoe area. Athletes compete in age ranges from as young as 7 years of age up through their early 20s. We also have adults competing at a Master's level in Far West Freestyle events.</p>
+            <p>We are governed by a <nuxt-link to="/about/board-of-directors">board of Directors</nuxt-link> consisting of parents of athletes, prior and current competitors, and representatives of the various ski clubs and freestyle teams. This group organizes events with the help of other parent volunteers and US Ski and Snowboard officials.</p>
+            <p>Far West Freestyle events are financed by the membership dues and event fees collected through US Ski and Snowboard.</p>
+            <p>We also receive the support of the generous sponsors listed below.</p>
         </v-col>
       </v-row>
     </v-container>

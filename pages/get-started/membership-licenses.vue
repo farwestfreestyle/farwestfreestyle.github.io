@@ -7,7 +7,11 @@
       <v-col sm="12" md="8">
         <div class="hdr">Membership & Licenses</div>
         <hr class="hrr"></hr>
-        <p>membership and licenses</p>
+        <p>Please visit below links on instructions how to create a US Ski & Snowboard Membership.</p>
+        <ul>
+          <li><a href="https://my.ussa.org/membership/start">Create New Membership Here</a></li>
+          <li><a href="https://my.ussa.org/sites/default/files/documents/membership/2014-15/documents/Member%20Materials_Freestyle_Print_0.pdf">Membership types and benefits</a></li>
+        </ul>
       </v-col>
     </v-row>
   </v-container>

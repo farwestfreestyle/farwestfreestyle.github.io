@@ -7,6 +7,14 @@
       <v-col sm="12" md="8">
         <div class="hdr">Event Registration</div>
         <hr class="hrr"></hr>
+        <h4 class="my-5">REGISTER FOR AN EVENT</h4>
+        <p>Registration is done through U.S. Ski & Snowboard. The athlete must <a href="https://my.ussa.org/myussa">join U.S. Ski & Snowboard</a> as a competitor to register for an event.</p>
+        <ul>
+          <li>Fees for regular events are $55 per day.</li>
+          <li>Fees for Divisional Championships are $65 per day.</li>
+          <li>Registration will close at Noon(PST) the day before the first event.</li>
+          <li>All competitors MUST purchase a bib for $50 at the first Squaw Valley event this year.</li>
+        </ul>
         <h4 class="my-5">ABOUT EVENTS</h4>
         <ul>
           <li>Mogul events are typically two days.</li>
@@ -18,16 +26,9 @@
           <li>Competitors must have a Far West Bib. These can be purchased at time of registration. New bib purchases will be handed out on the first morning of the event at the registration desk.</li>
           <li>The competitor's bib number is assigned, and that number is kept for all events and subsequent years.</li>
         </ul>
-        <h4 class="my-5">REGISTER FOR AN EVENT</h4>
-        <p>Registration is done through U.S. Ski & Snowboard. The athlete must <a href="https://my.ussa.org/myussa">join U.S. Ski & Snowboard</a> as a competitor to register for an event.</p>
-        <ul>
-          <li>Fees for regular events are $55 per day.</li>
-          <li>Fees for Divisional Championships are $65 per day.</li>
-          <li>Registration will close at Noon(PST) the day before the first event.</li>
-          <li>All competitors MUST purchase a bib for $50 at the first Squaw Valley event this year.</li>
-        </ul>
+
         <h4 class="my-5">THE DAY OF AN EVENT</h4>
-        <p>Coming soon</p>
+                <p>Our competitive events are in Moguls, Dual Moguls, Slopestyle and Half-pipe, and Big Air.</p>
         <ul>
           </ul>
         <v-banner light class="mt-5">
