@@ -11,9 +11,9 @@
         <ul class="mt-5 mb-5">
           <li>Mogul events are typically two days.</li>
           <li>The first day is usually a two-run singles event.</li>
-          <li>The best score of the two runs are recorded with USSA as one FSSP score.</li>
+          <li>The best score of the two runs are recorded with US Ski & Snowboard as one FSSP score.</li>
           <li>The second day is a one-run single event, followed by a duals event.</li>
-          <li>One singles and one Duals FSSP score is recorded with USSA for each competitor on the second day.</li>
+          <li>One singles and one Duals FSSP score is recorded with US Ski & Snowboard for each competitor on the second day.</li>
           <li>Competitors must have proper equipment. Helmets are mandatory and mouth guards are strongly encouraged.</li>
           <li>Competitors must have a Far West Bib. These can be purchased at time of registration. New bib purchases will be handed out on the first morning of the event at the registration desk.</li>
           <li>The competitor's bib number is assigned, and that number is kept for all events and subsequent years.</li>
@@ -23,14 +23,17 @@
         <ul>
           <li>Fees for regular events are $55 per day.</li>
           <li>Fees for Divisional Championships are $65 per day.</li>
-          <li>Registration will close the night before the first event at 6:00 pm</li>
-          <li>All competitors MUST purchase a bib for $30 at the first Squaw Valley event this year, proceeds will be used to replace aging equipment.</li>
+          <li>Registration will close at Noon(PST) the day before the first event.</li>
+          <li>All competitors MUST purchase a bib for $50 at the first Squaw Valley event this year.</li>
         </ul>
+        <h4 class="mb-5">REGISTER FOR AN EVENT</h4>
+        <ul>
+          </ul>
         <v-banner light class="mt-5">
           <v-avatar slot="icon" color="red accent-4" size="40">
             <v-icon icon="mdi-alert" color="white">mdi-alert</v-icon>
           </v-avatar>
-          <b>PLEASE NOTE THAT EVENT DATES ARE SUBJECT TO CHANGE DUE TO SKI RESORT AVAILABILITY OR WEATHER.</b> 
+          <b>PLEASE NOTE THAT EVENT DATES ARE SUBJECT TO CHANGE DUE TO SKI RESORT AVAILABILITY OR WEATHER.</b>
         </v-banner>
         <div align="center" justify="center" class="mt-5">
           <v-btn href="https://my.ussa.org/myussa">U.S. Ski & Snowboard Members Portal</v-btn>
