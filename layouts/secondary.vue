@@ -18,7 +18,7 @@
 	</v-navigation-drawer>
     <v-toolbar width="100%" color="#728EBF" fixed>
 			<v-app-bar-nav-icon @click.stopall="drawer = !drawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
-      <v-toolbar-title @click="goHome" class="top-logo"><div></div></v-toolbar-title>
+      <v-toolbar-title @click="goHome" class="top-logo">Farwest Freestyle</v-toolbar-title>
       <v-spacer></v-spacer>
 			<v-toolbar-items class="hidden-sm-and-down">
 				<v-menu offset-y v-for="(section,s) in sections" :key="s">

@@ -1,16 +1,17 @@
+
 <template>
   <v-container style="min-height:750px">
-    <v-row align="center" justify="center">
-      <v-img height="300" src="/images/clinics-hero-image.jpg"></v-img>
-    </v-row>
     <v-row>
-      <v-col sm="12" md="4" class="pa-4 mt-6 d-none d-md-flex">
+      <v-col cols="12" md="4" class="pa-4 mt-6 d-none d-md-flex">
         <LefthandNav section="about"></LefthandNav>
       </v-col>
-      <v-col sm="12" md="8">
-        <div class="hdr">Judging Clinics</div>
+      <v-col cols="12" md="8">
+        <div class="hdr">Event Crew</div>
         <hr class="hrr"></hr>
-        <p>clinics</p>
+        <p>The below document outlines event roles and responsibilities.</p>
+        <p>
+          <a href="/files/farwest-event-organization-crew.pdf">Farwest Event Organization Crew</a>
+        </p>
       </v-col>
     </v-row>
   </v-container>
@@ -23,6 +24,11 @@ export default {
   components: {
     LefthandNav
   },
+  computed: {
+    board() {
+      return this.$store.getters.board;
+    }
+  }
 }
 
 </script>
@@ -39,4 +45,5 @@ export default {
   .selected:hover > div {
     text-decoration: none !important;
   }
+
 </style>

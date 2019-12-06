@@ -15,7 +15,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,800|Titillium+Web:600&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,800|Titillium+Web:400,600,900&display=swap' },
       { rel: 'apple-touch-icon-precomposed', sizes: '57x57', href: 'favicon-144.png' },
       { rel: 'apple-touch-icon-precomposed', sizes: '72x72', href: 'favicon-144.png' },
       { rel: 'apple-touch-icon-precomposed', sizes: '114x114', href: 'favicon-144.png' },
@@ -39,6 +39,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@/plugins/vuelidate'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -66,21 +67,6 @@ export default {
   ** https://github.com/nuxt-community/vuetify-module
   */
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
-    theme: {
-      dark: true,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
-        }
-      }
-    }
   },
   /*
   ** Build configuration

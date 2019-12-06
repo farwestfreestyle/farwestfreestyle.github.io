@@ -18,7 +18,7 @@
 	</v-navigation-drawer>
     <v-toolbar width="100%" color="#728EBF" fixed>
 			<v-app-bar-nav-icon @click.stopall="drawer = !drawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
-      <v-toolbar-title @click="goHome" class="top-logo"><div></div></v-toolbar-title>
+      <v-toolbar-title @click="goHome" class="top-logo">Farwest Freestyle</v-toolbar-title>
       <v-spacer></v-spacer>
 			<v-toolbar-items class="hidden-sm-and-down">
 				<v-menu offset-y v-for="(section,s) in sections" :key="s">
@@ -72,8 +72,7 @@ export default {
 		drawer: false,
 		group: null,
     items: [
-      {src:'/images/hero/squaw-01.jpg'},
-      {src:'/images/hero/squaw-02.jpg'},
+      {src:'/images/hero/squaw-05.jpg'},
       {src:'/images/hero/squaw-03.jpg'},
       {src:'/images/hero/squaw-04.jpg'}
     ]
@@ -126,13 +125,13 @@ export default {
     left: 60px;
     & > div:first-child {
       font-family: 'Titillium Web', sans-serif;
-      font-weight: 700;
+      font-weight: 600;
       font-size: 310%;
       color: black;
     }
     & > div.sub {
       font-family: 'Titillium Web', sans-serif;
-      font-weight: 800;
+      font-weight: 400;
       font-size: 175%;
       color: black;
       margin-top: -10px;
@@ -193,6 +192,11 @@ export default {
   }
   .top-logo {
     cursor: pointer;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 800;
+    color: #254873;
+    text-shadow: 0px 1px #A3ADBF;
+    font-size: 180%;
     & > div {
       height: 55px;
       width: 7rem;

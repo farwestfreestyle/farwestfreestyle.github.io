@@ -2,7 +2,7 @@
   <v-container style="min-height:800px">
     <v-row>
       <v-col sm="12" md="4" class="pa-4 mt-6 d-none d-md-flex">
-        <LefthandNav section="about"></LefthandNav>
+        <LefthandNav section="getStarted"></LefthandNav>
       </v-col>
       <v-col sm="12" md="8">
         <div class="hdr">Membership & Licenses</div>

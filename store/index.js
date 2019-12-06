@@ -47,15 +47,13 @@ export const state = () => ({
       color: 'blue'
     }
   ],
-  sections: { 
-    about: {
-      title: "About",
-      icon: 'mdi-information',
+  sections: {
+    getStarted: {
+      title: "Get Started",
       links: [
-        { title: "Farwest Freestyle", link: "/about/farwest" },
-        { title: "Board of Directors", link: "/about/board-of-directors" },
-        { title: "Membership & Licenses", link: "/about/membership-licenses" },
-        { title: "Clinics", link: "/about/clinics" }
+        { title: "Athletes", link: "/get-started/athletes" },
+        { title: "Membership & Licenses", link: "/get-started/membership-licenses" },
+        { title: "Parents", link: "/get-started/parents" }
       ]
     },
     events: {
@@ -63,6 +61,7 @@ export const state = () => ({
       icon: 'events-icon',
       links: [
         { title: "Registration", link: "/events/registration" },
+        { title: "Volunteer & Support", link: "/events/volunteer" },
         { title: "Scoring", link: "/events/scoring" },
         { title: "Schedule & Results", link: "/events/schedule-results" }
       ]
@@ -74,18 +73,28 @@ export const state = () => ({
         { title: "Squaw Valley Freestyle", link: "/clubs/squaw" },
         { title: "Northstar", link: "/clubs/northstar" }
       ]
-    }
+    },
+    about: {
+      title: "About",
+      icon: 'mdi-information',
+      links: [
+        { title: "Board of Directors", link: "/about/board-of-directors" },
+        { title: "Event Crew", link: "/about/event-crew" },
+        { title: "Contact Us", link: "/about/contact-us" },
+      ]
+    },
+
   },
   board: [
     { title: "Chair", name: "Sebastien Cayolle", email: "sebastien.cayolle@gmail.com" },
-    { title: "Secretary & Scoring", name: "Lana Tam",  email: "lana.lee.tam@gmail.com" },
+    { title: "Co-Chair & Technical Delegate", name: "Erick Panelli", email: "epanelli@wntrucking.com", phone: "(775) 745-2516" },
+    { title: "Secretary & Chief of Scoring", name: "Lana Tam",  email: "lana.lee.tam@gmail.com" },
     { title: "Treasurer", name: "Fiona Gersh", email: "fionagersh@gmail.com" },
     { title: "Head Judge",  name: "Chuck Search",  email: "bigsearch@gmail.com" },
-    { title: "Squaw Valley Team Director", name: "Jimeel Ferris", email: "idahojimeel@gmail.com" },
-    { title: "Northstar Team Director", name: "Nat Schirman",  email: "nschirman79@gmail.com" },
-    { title: "Northstar Representative", name: "Amy Tewksbury-Warren", email: "awarren2@vailresorts.com" },
-    { title: "Technical Delegate", name: "Erick Panelli", email: "epanelli@wntrucking.com" },
-    { title: "Fund Raising", name: "Brooks Rohlen", email: "brookio@gmail.com" }
+    { title: "Head of Fund-Raising & Community", name: "Brooks Rohlen", email: "brookio@gmail.com" },
+    { title: "Head of Development & Growth", name: "Amy Tewksbury-Warren", email: "awarren2@vailresorts.com" },
+    { title: "Squaw Valley Team Representative", name: "Jimeel Ferris", email: "idahojimeel@gmail.com" },
+    { title: "Northstar Team Representative", name: "Nat Schirman",  email: "nschirman79@gmail.com" },
   ]
 });
 
