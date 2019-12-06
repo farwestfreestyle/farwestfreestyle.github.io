@@ -10,7 +10,7 @@
       <v-col sm="12" md="8">
         <div class="hdr">Northstar</div>
         <hr class="hrr"></hr>
-        <p>This program is designed for skiers who have the desire compete in moguls, with a focus on development. Training includes skiing moguls, slopestyle, halfpipe, powder, trees, jumps, gates, steeps, and more. Athletes will train on a private mogul course in our Northstar Training Arena approximately 50%-60% of the time. We introduce competitive skiing, and allow athletes to develop their own personal vision for the sport.</p>
+        <p>This program is designed for skiers who have the desire to compete in moguls, with a focus on development. Training includes skiing moguls, slopestyle, halfpipe, powder, trees, jumps, gates, steeps, and more. Athletes will train on a private mogul course in our Northstar Training Arena approximately 50%-60% of the time. We introduce competitive skiing, and allow athletes to develop their own personal vision for the sport.</p>
         <div class="text-center">
           <v-btn href="https://www.northstarcalifornia.com/plan-your-trip/ski-and-ride-lessons/products/Mogul-Part-Time">Visit Team Site</v-btn>
         </div>

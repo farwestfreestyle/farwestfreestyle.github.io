@@ -5,11 +5,11 @@
         <LefthandNav section="events"></LefthandNav>
       </v-col>
       <v-col sm="12" md="8">
-        <div class="hdr">Scoring</div>
+        <div class="hdr">Results</div>
         <hr class="hrr"></hr>
         <p>After an event, scores are reviewed and checked for errors by the head judge and Team coaches
-        Once approved, scores are transferred to U.S. Ski & Snowboard by the event scorekeeper. Competitors may then log into U.S. Ski & Snowboard and see their updated FSSP scores.</p>
-        <p>For information about qualifying for Junior Nationals, access the <a href="https://my.ussa.org/myussa">U.S. Ski & Snowboard here.</a></p>
+        Once approved, scores are transferred to U.S. Ski & Snowboard by the event scorekeeper. </p>
+        <p>Results will be posted here.</p>
       </v-col>
     </v-row>
   </v-container>

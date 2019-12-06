@@ -10,11 +10,9 @@
         <p>We communicate with the athletes, parents and volunteers principally via email, generally to distribute information about events. You may also be receiving information about events from your club/team.</p>
         <p>Our email address is admin@farwestfreestyle.com</p>
         <ul>
-          <li>Please sign up for the FarWest Freestyle emails and important updates.</li>
+          <li>Please sign up for the <a href="https://mailchi.mp/28682dc10752/ussafarwestfreestyle" target="mail">FarWest Freestyle emails</a> and important updates.</li>
           <li>Please add admin@farwestfreestyle.com to your address book (to avoid having our emails go into your junk folder)</li>
-          <li>Please follow USSAFarWestFreestyle on Facebook and Twitter.</li>
         </ul>
-        <p>Please sign up for the <a href="https://mailchi.mp/28682dc10752/ussafarwestfreestyle" target="mail">FarWest Freestyle emails</a> and important updates.</p>
       </v-col>
     </v-row>
   </v-container>

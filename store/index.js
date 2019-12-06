@@ -61,9 +61,9 @@ export const state = () => ({
       title: "Events",
       icon: 'events-icon',
       links: [
-        { title: "Registration", link: "/events/registration" },
-        { title: "Scoring", link: "/events/scoring" },
-        { title: "Schedule & Results", link: "/events/schedule-results" }
+        { title: "Schedule", link: "/events/schedule" },
+        { title: "Event Registration", link: "/events/registration" },
+        { title: "Results", link: "/events/results" }
       ]
     },
     clubs: {
