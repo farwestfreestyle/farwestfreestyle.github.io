@@ -22,8 +22,7 @@
             <li>The five US Ski and Snowboard-sanctioned competitions typically occur on week-ends. Week-end competitions consist of 2 distinct events: one on Saturday with 2 single-mogul runs, and one event on Sunday starting with a single-mogul run in the morning followed by a dual-moguls competition.</li>
             <li>There is an entry fee of approximately $55 for each day of competition ($65 for divisional Championships). The fees are paid with a credit card when registering from your account profile on <a href="https://my.ussa.org/" target="ussa">my.ussa.org</a>.</li>
             <li>Each competitor must purchase a bib s/he will compete with for at least 1 season. Bibs are purchased for $50 from the FarWest Freestyle Treasurer or Chief of Scoring.</li>
-            <li>Safety comes first. A helmet is mandatory, and mouth-guards and a back-protectors are highly recommended.</li>
-            <li>New for 2020- FarWest Freestyle will offer an introductory non-scored DEVO competition for new and young competitors.</li>
+            <li>Safety comes first. A helmet is mandatory, mouth-guards and back-protectors are highly recommended.</li>
           </ul>
         </li>
         <li><b>Progress…</b> all the way to <a href="https://usskiandsnowboard.org/index.php/teams/freestyle" target="team">US Team</a> Selection - As you continue to advance, your US Ski and Snowboard ranking may qualify you to compete at the national level in Junior Nationals and US Championships and then onto the US Freestyle Team, and then to the Olympic Team!</li>

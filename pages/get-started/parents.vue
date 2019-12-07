@@ -8,7 +8,7 @@
         <hr class="hrr"></hr>
           <b>Please Volunteer</b>
           <ul>
-            <li>FarWest Freestyle is run by volunteer parents and assisted by teams’ coaches. As the parent of an athlete competing in freestyle events you’ll become a key member of fun and dedicated community known for rolling its sleeves to make competitions happen. The events require countless hours of preparation from setting up the course and installing equipment, to helping with check-in and distributing bibs, to hand-timing and picking-up lunches for the judges and officials.</li>
+            <li>FarWest Freestyle is run by volunteer parents and assisted by teams’ coaches. As the parent of an athlete competing in freestyle events you’ll become a key member of a fun and dedicated community known for rolling its sleeves up to make competitions happen. The events require countless hours of preparation from setting up the course and installing equipment, to helping with check-in and distributing bibs, to hand-timing and picking-up lunches for the officials.</li>
             <li>We rely extensively on the support of parent volunteers to assist with the numerous jobs required to put on a good event, and strongly encourage all parents of competitors to volunteer in one capacity or another.</p>
         <p>Below are the 2019/2020 Season volunteer signup sheets</p>
         <p>

@@ -13,34 +13,35 @@
           <li>Fees for regular events are $55 per day.</li>
           <li>Fees for Divisional Championships are $65 per day.</li>
           <li>Registration will close at Noon(PST) the day before the first event.</li>
-          <li>All competitors MUST purchase a bib for $50 at the first Squaw Valley event this year.</li>
+          <li>Make sure to register for each day of competition.</li>
         </ul>
         <h4 class="my-5">ABOUT EVENTS</h4>
         <ul>
           <li>Mogul events are typically two days.</li>
           <li>The first day is usually a two-run singles event.</li>
-          <li>The best score of the two runs are recorded with US Ski & Snowboard as one FSSP score.</li>
+          <li>The best score of the two runs are recorded with US Ski & Snowboard as one score.</li>
           <li>The second day is a one-run single event, followed by a duals event.</li>
-          <li>One singles and one Duals FSSP score is recorded with US Ski & Snowboard for each competitor on the second day.</li>
+          <li>One singles and one Duals score is recorded with US Ski & Snowboard for each competitor on the second day.</li>
           <li>Competitors must have proper equipment. Helmets are mandatory and mouth guards are strongly encouraged.</li>
           <li>Competitors must have a Far West Bib. These can be purchased at time of registration. New bib purchases will be handed out on the first morning of the event at the registration desk.</li>
           <li>The competitor's bib number is assigned, and that number is kept for all events and subsequent years.</li>
         </ul>
 
         <h4 class="my-5">THE DAY OF AN EVENT</h4>
-                <p>Our competitive events are in Moguls, Dual Moguls, Slopestyle and Half-pipe, and Big Air.</p>
-        <ul>
-          </ul>
+        <p>On the 1st day of an event, the competitor must check-in  with a parent/guardian before 8:30 am. The check-in desk is generally attended by the Chief of Scoring and/or the Treasurer. Returning athletes must bring their bib to check-in to confirm their place in the run-order.</p>
+
+        <p>Please note that the check-in process is distinct from registration. Registration is only possible online at <a href="https://my.ussa.org">my.ussa.org</a></p>
+
+        <p>At Squaw Valley, the check-in desk is located by the fireplace next to Dave’s Deli.</p>
+
+        <p>At Northstar, the check-in desk is located inside the gondola building next to the over-night storage.</p>
+         
         <v-banner light class="mt-5">
           <v-avatar slot="icon" color="red accent-4" size="40">
             <v-icon icon="mdi-alert" color="white">mdi-alert</v-icon>
           </v-avatar>
           <b>PLEASE NOTE THAT EVENT DATES ARE SUBJECT TO CHANGE DUE TO SKI RESORT AVAILABILITY OR WEATHER.</b>
         </v-banner>
-        <div align="center" justify="center" class="mt-5">
-          <v-btn href="https://my.ussa.org/myussa">U.S. Ski & Snowboard Members Portal</v-btn>
-        </div>
-        <p class="mt-5">Once logged in, click on "athlete event registration" and follow instructions to complete registration.</p>
       </v-col>
     </v-row>
   </v-container>

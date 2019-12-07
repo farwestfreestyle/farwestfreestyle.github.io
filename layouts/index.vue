@@ -72,7 +72,7 @@ export default {
 		drawer: false,
 		group: null,
     items: [
-      {src:'/images/hero/squaw-05.jpg'},
+      {src:'/images/hero/squaw-05.png'},
       {src:'/images/hero/squaw-03.jpg'},
       {src:'/images/hero/squaw-04.jpg'}
     ]

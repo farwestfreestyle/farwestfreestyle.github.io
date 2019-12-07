@@ -54,7 +54,7 @@ export const state = () => ({
         { title: "Athletes", link: "/get-started/athletes" },
         { title: "Membership & Licenses", link: "/get-started/membership-licenses" },
         { title: "Parents", link: "/get-started/parents" },
-        { title: "Become and Official", link: "/get-started/become-an-official" }
+        { title: "Become an Official", link: "/get-started/become-an-official" }
       ]
     },
     events: {

@@ -4,10 +4,10 @@
       <v-col sm="12" md="4" class="pa-4 mt-6 d-none d-md-flex">
         <LefthandNav section="events"></LefthandNav>
       </v-col>
-      <v-col sm="12" md="8">
+      <v-col sm="12" md="8" class="pb-10">
         <div class="hdr">Schedule</div>
         <hr class="hrr"></hr>
-        <v-sheet height="360"> 
+        <v-sheet height="400"> 
 					<v-toolbar flat color="#728EBF">
 						<v-btn outlined class="mr-4" @click="setToday">Today</v-btn>
 						<v-btn fab text small @click="prev">
@@ -66,6 +66,15 @@
 						</v-card>
 					</v-menu>
         </v-sheet>
+        <v-sheet height="100" class="schedule-banner">
+          <v-banner light class="mt-5">
+            <v-avatar slot="icon" color="red accent-4" size="40">
+              <v-icon icon="mdi-alert" color="white">mdi-alert</v-icon>
+            </v-avatar>
+            <b>EVENT DATES ARE SUBJECT TO CHANGE DUE TO CONDITIONS BEYOND OUR CONTROL.</b>
+          </v-banner>
+        </v-sheet>
+        <p class="western-pdf hidden-md-and-up"><a href="http://localhost:3000/files/western-states-freestyle-2019-2020-sc.pdf">Western Region/FIS Freestyle 2019/2020 Schedule</a></p>
       </v-col>
     </v-row>
   </v-container>
@@ -163,10 +172,18 @@ export default {
 
 </script>
 <style lang="scss">
+.western-pdf {
+  margin-top: 20px;
+}
+.schedule-banner {
+  margin-top: 100px;
+  & > div:first-child {
+    border: 2px solid red;
+  }
+}
 .month {
   color: black;
 }
-
 .link > div {
     color: black !important;
   }
