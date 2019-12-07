@@ -74,7 +74,7 @@
             <b>EVENT DATES ARE SUBJECT TO CHANGE DUE TO CONDITIONS BEYOND OUR CONTROL.</b>
           </v-banner>
         </v-sheet>
-        <p class="western-pdf hidden-md-and-up"><a href="http://localhost:3000/files/western-states-freestyle-2019-2020-sc.pdf">Western Region/FIS Freestyle 2019/2020 Schedule</a></p>
+        <p class="western-pdf hidden-md-and-up"><a href="/files/western-states-freestyle-2019-2020-sc.pdf">Western Region/FIS Freestyle 2019/2020 Schedule</a></p>
       </v-col>
     </v-row>
   </v-container>
