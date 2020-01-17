@@ -14,6 +14,9 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
+    script: [
+      { src: "/js/globals.js" }
+    ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,800|Titillium+Web:400,600,900&display=swap' },
       { rel: 'apple-touch-icon-precomposed', sizes: '57x57', href: 'favicon-144.png' },

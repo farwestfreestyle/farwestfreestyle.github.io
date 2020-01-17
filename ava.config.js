@@ -17,6 +17,6 @@ export default {
       ]
     }
   },
-  tap: true,
+  tap: false,
   verbose: true
 }

@@ -5,10 +5,14 @@ export const state = () => ({
       name: 'Squaw Valley',
       title: 'Mogul Event #1 @ Squaw Valley',
       details: 'This will be a Friday, Saturday event.',
-      access: 'Run TBD',
       start: '2020-01-03',
       end: '2020-01-04',
-      color: 'blue'
+      color: 'blue',
+      results: [{
+        id:"2020_01_03",
+        label: 'Friday Results',
+        path: '/events/archived-results/2020-01-03'
+      }]
     },
     {
       name: 'Northstar',

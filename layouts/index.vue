@@ -52,7 +52,7 @@
       </v-container>
 			<v-container fluid class="main-area pa-0">
 				<v-row no-gutters justify="center">
-          <v-col columns="12" xs="12" md="10" lg="8" class="bgcolor">
+          <v-col columns="12" md="10" lg="8" class="bgcolor">
             <nuxt />
             </v-col>
         </v-row>

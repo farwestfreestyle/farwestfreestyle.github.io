@@ -52,7 +52,12 @@
 							<v-card-text>
                 <div class="calendar-details-title" v-html="selectedEvent.title"></div>
 								<div class="calendar-details" v-html="selectedEvent.details"></div>
-								<div class="calendar-details-access" v-html="selectedEvent.access"></div>
+								<div v-if="selectedEvent.access" class="calendar-details-access" v-html="selectedEvent.access"></div>
+                <div v-if="selectedEvent.results">
+                  <div v-for="result in selectedEvent.results" :key="result.id">
+                    <nuxt-link :to="result.path">{{result.label}}</nuxt-link>
+                  </div>
+                </div>
 							</v-card-text>
 							<v-card-actions>
 								<v-btn
