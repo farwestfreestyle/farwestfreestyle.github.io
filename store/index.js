@@ -17,6 +17,11 @@ export const state = () => ({
         id:"2020_01_04",
         label: 'Saturday Singles Results',
         path: '/events/archived-results/singles/2020-01-04'
+      },
+      {
+        id:"2020_01_04",
+        label: 'Saturday Duals Results',
+        path: '/events/archived-results/duals/2020-01-04'
       }]
     },
     {
