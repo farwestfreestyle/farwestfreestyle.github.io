@@ -1,6 +1,6 @@
 {
   "name": "farwest-freestyle",
-  "version": "1.27.0",
+  "version": "1.28.0",
   "description": "US Ski & Snowboard Farwest Freestyle Division",
   "author": "Angelo Calub",
   "private": true,
@@ -17,25 +17,25 @@
   "config": {
     "results": [
       {
-        "id":"2020-01-03-friday-singles",
+        "id": "2020-01-03-friday-singles",
         "date": "2020-01-03",
-        "type":"singles",
+        "type": "singles",
         "label": "1/3/20 Friday Singles, Shirley Lake Express, Squaw Valley"
       },
       {
-        "id":"2020-01-03-saturday-singles",
+        "id": "2020-01-03-saturday-singles",
         "date": "2020-01-04",
-        "type":"singles",
+        "type": "singles",
         "label": "1/4/20 Saturday Single Run, Shirley Lake Express, Squaw Valley"
       },
       {
-        "id":"2020-01-03-saturday-duals",
+        "id": "2020-01-03-saturday-duals",
         "date": "2020-01-04",
-        "type":"duals",
+        "type": "duals",
         "label": "1/4/20 Saturday Duals, Shirley Lake Express, Squaw Valley"
       }
-    ]  
-  }, 
+    ]
+  },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "cross-env": "^6.0.3",
