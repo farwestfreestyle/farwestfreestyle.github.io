@@ -4,7 +4,6 @@
       <v-row>
         <v-col cols="12" md="4">
           <img class="farwestlogo" src="/images/farwest-freestyle-logo.svg"></img>
-          <div class="insta">insta</div>
         </v-col>
         <v-col cols="12" xs="12" md="8">
           <div class="hdr">WELCOME</div>
