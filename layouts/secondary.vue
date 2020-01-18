@@ -63,7 +63,6 @@ export default {
   },
   methods: {
     goHome (e) {
-      console.log('go home', this.$router);
       this.$router.push('/');
     }
   },

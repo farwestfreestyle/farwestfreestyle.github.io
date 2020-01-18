@@ -11,7 +11,12 @@ export const state = () => ({
       results: [{
         id:"2020_01_03",
         label: 'Friday Results',
-        path: '/events/archived-results/2020-01-03'
+        path: '/events/archived-results/singles/2020-01-03'
+      },
+      {
+        id:"2020_01_04",
+        label: 'Saturday Singles Results',
+        path: '/events/archived-results/singles/2020-01-04'
       }]
     },
     {

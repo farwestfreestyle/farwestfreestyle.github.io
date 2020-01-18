@@ -1,0 +1,81 @@
+<html><head><title>Result for Head Judge: SEARCH,Charles  -- Duals (Female/Male)</title></head><body bgcolor="#ffffff"><center><h1>Head Judge: SEARCH,Charles </h1>
+<hr size="4"><h5>Chief of Comp: CAYOLLE,Sebastien </h5>
+<h5>T.D.: PANELLI,Erick </h5>
+<h3>Duals (Female/Male)</h3></center><hr size="4"><body><pre><font size=3>
+Judge 1: CALUB,Angelo 
+Judge 2: SEARCH,Charles 
+Judge 3: AMBROSI,Dino
+Judge 4: FAT,Michael
+Judge 5: JENSEN,Beck 
+Course: Shirley
+Length: 190 m
+M Break Pt: 16
+F Break Pt: 16
+<hr size="4">
+
+ No Bib# Name                 Gp  Representing  Score             
+=== ==== ==================   ==  ============  ==================
+
+  1   12 BUCKMASTER,Alicia    F15 Squaw Valley  1st     30.00
+  2   76 RUSSELL,Kaya         F15 Olympic Vall  2nd     29.40
+  3   49 FULLER,Katie         F15 Olympic Vall  3rd     28.81
+  4   39 GUPTA,Alisha         F17 Olympic Vall  4th     28.24
+  5   21 ENGLISH,Ella         F15 Olympic Vall  5th     27.67
+  6   11 TAM,Michelle         F19 Olympic Vall  6th     27.12
+  7   27 GUPTA,Annika         F15 Olympic Vall  7th     26.58
+  8   88 DAVIS,Ainsley        F13 Olympic Vall  8th     26.04
+  9  126 PIDWELL,Lanie        F15 Wasatch Free  top 16  25.52
+ 10   46 GERSH,Georgia        F15 Olympic Vall  top 16  25.01
+ 11  127 BOOTH,Mckenna        F15 Wasatch Free  top 16  24.51
+ 12  104 WINTERBERGER,Abby    F11 Olympic Vall  top 16  24.02
+ 13   79 COFFEY,Anna          F13 Northstar Sk  top 16  23.54
+ 13  110 KELLY,Keva           F11 Olympic Vall  top 16  23.07
+ 15   82 YOUNGQUIST,Eva       F13 Olympic Vall  top 16  22.61
+ 16   22 SMIT,Finn            F13 Northstar Sk  top 32  22.16
+ 17  103 PEDERSON,Emily       F13 Northstar Sk  top 32  21.71
+ 18  115 OLSON,Linnea         F11 Olympic Vall  top 32  21.28
+ 19   24 SPALY,Audrey         F13 Northstar Sk  top 32  20.85
+ 20  369 EDWARDS,Cree         F13 Northstar Sk  top 32  20.44
+ 21   45 KOWAL,Ella           F15 Northstar Sk  top 32  20.03
+ 22   33 LOREDO,Sienna        F13 Olympic Vall  top 32  19.63
+ 23   28 SMIT,Palmer          F11 Northstar Sk  top 32  19.24
+ 24   93 SCHAEFFER,Samantha   F13 Northstar Sk  top 32  18.85
+ 25  108 SPALY,Lila           F11 Northstar Sk  top 32  18.47
+ 26  111 LIM,Madeleine        F09 Olympic Vall  top 32  18.10
+
+  1   10 CAYOLLE,Tristan      M19 Olympic Vall  1st     30.00
+  2   18 NICKEL,Benjamin      M19 Olympic Vall  2nd     29.40
+  3   99 CAYOLLE,Julian       M17 Olympic Vall  3rd     28.81
+  4   90 GENDRON,Nate         M15 Wasatch Free  4th     28.24
+  5   13 RUSSELL,Jonah        M15 Olympic Vall  5th     27.67
+  6  121 YATKEMAN,Max         M15 Wasatch Free  6th     27.12
+  7   97 GELLERMAN,Henry      M13 Olympic Vall  7th     26.58
+  8   70 MULLIGAN,Nikhilas    M17 Olympic Vall  8th     26.04
+  9   78 FULLER,T.J.          M13 Olympic Vall  top 16  25.52
+ 10   16 CESPON,Owen          M17 Olympic Vall  top 16  25.01
+ 11   83 YOUNGQUIST,Owen      M15 Olympic Vall  top 16  24.51
+ 12   48 GUPTA,Aditya         M13 Olympic Vall  top 16  24.02
+ 13   42 NEAVE,Hunter         M13 Olympic Vall  top 16  23.54
+ 14   26 CALUB,Victor         M17 Squaw Valley  top 16  23.07
+ 15   52 PANELLI,Hunter       M13 Olympic Vall  top 16  22.61
+ 16   25 CHEN,Casey           M15 Olympic Vall  top 16  22.16
+ 17   77 HART,Mark            M13 Olympic Vall  top 32  21.71
+ 18   81 WONG,Ryan            M15 Olympic Vall  top 32  21.28
+ 19  134 ROHLEN,Beau          M11 Squaw Valley  top 32  20.85
+ 20   51 CHAN,Alex            M15 Northstar     top 32  20.44
+ 21    9 EWINS,Gabe           M17 Squaw Valley  top 32  20.03
+ 22   69 ERICKSON,Keaton      M13 Olympic Vall  top 32  19.63
+ 23  125 HAYHURST,Giles       M13 Squaw Valley  top 32  19.24
+ 24   67 PUHOFF,Maxim         M15 Olympic Vall  top 32  18.85
+ 25  114 GALLARD,J Stewart    M13 Northstar Sk  top 32  18.47
+ 26   92 SCHAEFFER,Benjamin   M11 Northstar Sk  top 32  18.10
+ 27  132 KRUEGER,Liem         M13 Northstar     top 32  17.74
+ 28   64 WAIS,Maitland        M13 Northstar Sk  top 32  17.39
+ 29  118 FLIGOR,Beckett       M11 Squaw Valley  top 32  17.04
+ 30  131 PEDERSON,William     M11 Northstar     top 32  16.70
+ 31   63 MARUSICH,Nate        M11 Northstar Sk  top 32  16.36
+ 32  117 LIBRODO,Dai          M09 Olympic Vall  top 32  16.04
+ 33  128 ROEDER,Jack          M13 Squaw Valley  top 64  15.72
+
+Winfree 2020.02, A Rules, Rand=633 @ 7:55a(20-1-4), D
+</pre><hr></body></html>

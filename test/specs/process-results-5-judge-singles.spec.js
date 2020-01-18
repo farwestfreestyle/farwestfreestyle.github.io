@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils'
 import test from 'ava'
-import ResultsProcessor from '../../lib/ResultsProcessor';
+import ResultsProcessor from '../../lib/results-processor';
 
 
 test('should throw error if missing path', (t) => {

@@ -14,6 +14,28 @@
     "test:unit": "cross-env TEST=unit ava --config unit.config.js",
     "test:e2e": "cross-env TEST=e2e ava --config e2e.config.js"
   },
+  "config": {
+    "results": [
+      {
+        "id":"2020-01-03-friday-singles",
+        "date": "2020-01-03",
+        "type":"singles",
+        "label": "1/3/20 Friday Singles, Shirley Lake Express, Squaw Valley"
+      },
+      {
+        "id":"2020-01-03-saturday-singles",
+        "date": "2020-01-04",
+        "type":"singles",
+        "label": "1/4/20 Saturday Single Run, Shirley Lake Express, Squaw Valley"
+      },
+      {
+        "id":"2020-01-03-saturday-duals",
+        "date": "2020-01-04",
+        "type":"duals",
+        "label": "1/4/20 Saturday Duals, Shirley Lake Express, Squaw Valley"
+      }
+    ]  
+  }, 
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "cross-env": "^6.0.3",

@@ -7,7 +7,7 @@
       <v-col>
         <div>
           <center>
-            <div style="border-bottom: 1px solid #999; padding: 0px 50px; display: inline-block;"><b>{{parseData(date)}}</b></div>
+            <div style="border-bottom: 1px solid #999; padding: 0px 50px; display: inline-block;"><b>{{parseData(date)}} | {{details['description']}}</b></div>
             <h4>Head Judge: {{details['head-judge']}}</h4>
             <h4>Chief of Comp: {{details['chief-of-comp']}}</h4>
             <h4>Technical Delegate: {{details['technical-delegate']}}</h4>
@@ -146,11 +146,14 @@ export default {
       return this.$route.params.date;
     },
     details() {
-      return require(`./${this.$route.params.date}-details.json`);
+      if ( /([0-9]+)-([0-9]+)-([0-9]+)/.test(this.$route.params.date)) {
+        return require(`./${this.$route.params.date}-details.json`);
+      }
     },
     data() {
-      const data = require(`./${this.$route.params.date}.json`);
-      return data; 
+      if ( /([0-9]+)-([0-9]+)-([0-9]+)/.test(this.$route.params.date)) {
+        return require(`./${this.$route.params.date}.json`);
+      }
     }
   },
   methods: {
@@ -199,73 +202,86 @@ export default {
       this.overlay = true;
     },
     buildTable(rows) {
-      return `<tr class="th">
-              <td rowspan="2" class="ctr">PLACE</td>
-              <td rowspan="2" class="ctr">BIB</td>
-              <td rowspan="2">NAME</td>
-              <td rowspan="2" class="ctr">AGE</td>
-              <td rowspan="2" class="ctr">TEAM</td>
-        <td class="ctr" colspan="5"><a href="javascript:explainTurns()">TURNS (60%)</a></td>
-        <td class="ctr" colspan="6"><a href="javascript:explainAirs()">AIRS (20%)</a></td>
-        <td rowspan="2" class="ctr"><a href="javascript:explainTotalJS()">TOT JS</a></td>
-        <td class="ctr" colspan="2"><a href="javascript:explainTime()">TIME (20%)</a></td>
-        <td rowspan="2" class="ctr"><a href="javascript:explainTotal()">TOTAL</a></td>
-        <td class="spa ctr" rowspan="2"><a href="javascript:explainEventScore()">EVENT SCORE</a></td>
-            </tr>
-            <tr>
-              <td class="wht spad">RUN 1</td>
-              <td class="spad ctr">J1</td>
-              <td class="spad ctr">J2</td>
-              <td class="spad ctr">J3</td>
-              <td class="spad ctr">TOT</td>
-              <td class="spad ctr"></td>
-              <td class="spad ctr">J4</td>
-              <td class="spad ctr">J5</td>
-              <td class="spad ctr">CODE</td>
-              <td class="spad ctr">DOD</td>
-              <td class="spad ctr">TOT</td>
-              <td class="spad ctr">TIME</td>
-              <td class="spad ctr">TIME PTS</td>
-            </tr>
-            ${this.iterateRows(rows)}
-        `;
+      if (rows[0].runs.length === 1) {
+        return this.buildSingleRunTable(rows);
+      } else {
+        return this.buildTwoRunTable(rows);
+      }
     },
-    iterateRows(rows) {
+    buildTableHead() {
+      return `<tr class="th">
+                <td rowspan="2" class="ctr">PLACE</td>
+                <td rowspan="2" class="ctr">BIB</td>
+                <td rowspan="2">NAME</td>
+                <td rowspan="2" class="ctr">AGE</td>
+                <td rowspan="2" class="ctr">TEAM</td>
+                <td class="ctr" colspan="5"><a href="javascript:explainTurns()">TURNS (60%)</a></td>
+                <td class="ctr" colspan="6"><a href="javascript:explainAirs()">AIRS (20%)</a></td>
+                <td rowspan="2" class="ctr"><a href="javascript:explainTotalJS()">TOT JS</a></td>
+                <td class="ctr" colspan="2"><a href="javascript:explainTime()">TIME (20%)</a></td>
+                <td rowspan="2" class="ctr"><a href="javascript:explainTotal()">TOTAL</a></td>
+                <td class="spa ctr" rowspan="2"><a href="javascript:explainEventScore()">EVENT SCORE</a></td>
+              </tr>
+              <tr>
+                <td class="wht spad">RUN 1</td>
+                <td class="spad ctr">J1</td>
+                <td class="spad ctr">J2</td>
+                <td class="spad ctr">J3</td>
+                <td class="spad ctr">TOT</td>
+                <td class="spad ctr"></td>
+                <td class="spad ctr">J4</td>
+                <td class="spad ctr">J5</td>
+                <td class="spad ctr">CODE</td>
+                <td class="spad ctr">DOD</td>
+                <td class="spad ctr">TOT</td>
+                <td class="spad ctr">TIME</td>
+                <td class="spad ctr">TIME PTS</td>
+              </tr>
+      `;
+    },
+    buildSingleRunTable(rows) {
+      return `${this.buildTableHead()}${this.iterateRows(rows, 1)}`;
+    },
+    buildTwoRunTable(rows) {
+      return `${this.buildTableHead()}${this.iterateRows(rows, 2)}`;
+    },
+    iterateRows(rows, runs) {
       let str = '';
       let cnt = 0;
+      const mainRowSpan = runs === 1 ? '2' : '4';
       rows.forEach((row) => {
         str += `${ cnt % 2 === 0 ? '<tr class="bg">' : '<tr>'}
-              <td class="pad ctr" rowspan="5">${row.place}</td>
-              <td class="pad ctr" rowspan="5">${row.bib}</td>
-              <td class="pad" rowspan="5">${row.name}</td>
-              <td class="pad ctr" rowspan="5">${row.age}</td>
-              <td class="pad ctr" rowspan="5">${row.team}</td>
-            </tr>
-            ${ cnt % 2 === 0 ? '<tr class="bg">' : '<tr>'}
-              <td class="spad ctr" rowspan="2">RUN 1</td>
-              <td class="spad ctr" rowspan="2">${row.runs[0].turn_j1}</td>
-              <td class="spad ctr" rowspan="2">${row.runs[0].turn_j2}</td>
-              <td class="spad ctr" rowspan="2">${row.runs[0].turn_j3}</td>
-              <td class="spad ctr" rowspan="2">${row.runs[0].turnTotal}</td>
-              <td class="spad ctr">AIR 1</td>
-              <td class="spad ctr">${row.runs[0].air_1_j4}</td>
-              <td class="spad ctr">${row.runs[0].air_1_j5}</td>
-              <td class="spad ctr">${row.runs[0].air_1_code}</td>
-              <td class="spad ctr">${row.runs[0].air_1_dod}</td>
-              <td class="spad ctr" rowspan="2">${row.runs[0].airTotal}</td>
-              <td class="spad ctr" rowspan="2">${row.runs[0].totalJudgesScore}</td>
-              <td class="spad ctr" rowspan="2">${row.runs[0].time}</td>
-              <td class="spad ctr" rowspan="2">${row.runs[0].timePts}</td>
-              <td class="spad ctr" rowspan="2">${row.runs[0].total}</td>
-              <td class="pad ctr" rowspan="5">${row.eventScore}</td>
-            </tr>
-            ${ cnt % 2 === 0 ? '<tr class="bg">' : '<tr>'}
-              <td class="spad ctr">AIR 2</td>
-              <td class="spad ctr">${row.runs[0].air_2_j4}</td>
-              <td class="spad ctr">${row.runs[0].air_2_j5}</td>
-              <td class="spad ctr">${row.runs[0].air_2_code}</td>
-              <td class="spad ctr">${row.runs[0].air_2_dod}</td>
-            </tr>
+          <td class="pad ctr" rowspan="${mainRowSpan}">${row.place}</td>
+          <td class="pad ctr" rowspan="${mainRowSpan}">${row.bib}</td>
+          <td class="pad" rowspan="${mainRowSpan}">${row.name}</td>
+          <td class="pad ctr" rowspan="${mainRowSpan}">${row.age}</td>
+          <td class="pad ctr" rowspan="${mainRowSpan}">${row.team}</td>
+          <td class="spad ctr" rowspan="2">RUN 1</td>
+          <td class="spad ctr" rowspan="2">${row.runs[0].turn_j1}</td>
+          <td class="spad ctr" rowspan="2">${row.runs[0].turn_j2}</td>
+          <td class="spad ctr" rowspan="2">${row.runs[0].turn_j3}</td>
+          <td class="spad ctr" rowspan="2">${row.runs[0].turnTotal}</td>
+          <td class="spad ctr">AIR 1</td>
+          <td class="spad ctr">${row.runs[0].air_1_j4}</td>
+          <td class="spad ctr">${row.runs[0].air_1_j5}</td>
+          <td class="spad ctr">${row.runs[0].air_1_code}</td>
+          <td class="spad ctr">${row.runs[0].air_1_dod}</td>
+          <td class="spad ctr" rowspan="2">${row.runs[0].airTotal}</td>
+          <td class="spad ctr" rowspan="2">${row.runs[0].totalJudgesScore}</td>
+          <td class="spad ctr" rowspan="2">${row.runs[0].time}</td>
+          <td class="spad ctr" rowspan="2">${row.runs[0].timePts}</td>
+          <td class="spad ctr" rowspan="2">${row.runs[0].total}</td>
+          <td class="pad ctr" rowspan="${mainRowSpan}">${row.eventScore}</td>
+        </tr>
+        ${ cnt % 2 === 0 ? '<tr class="bg">' : '<tr>'}
+          <td class="spad ctr">AIR 2</td>
+          <td class="spad ctr">${row.runs[0].air_2_j4}</td>
+          <td class="spad ctr">${row.runs[0].air_2_j5}</td>
+          <td class="spad ctr">${row.runs[0].air_2_code}</td>
+          <td class="spad ctr">${row.runs[0].air_2_dod}</td>
+        </tr>`;
+        if (runs === 2) {
+           str += ` 
             ${ cnt % 2 === 0 ? '<tr class="bg">' : '<tr>'}
               <td class="spad ctr" rowspan="2">RUN 2</td>
               <td class="spad ctr" rowspan="2">${row.runs[1].turn_j1}</td>
@@ -289,7 +305,8 @@ export default {
               <td class="spad ctr">${row.runs[1].air_2_j5}</td>
               <td class="spad ctr">${row.runs[1].air_2_code}</td>
               <td class="spad ctr">${row.runs[1].air_2_dod}</td>
-            </tr>`
+            </tr>`;
+        }
         cnt += 1;
       });
       return str;
