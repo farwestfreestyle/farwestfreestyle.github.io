@@ -28,31 +28,37 @@
             <p style="margin-top: 10px; font-size: 70%; text-transform: uppercase; color: #666">{{details['meta']}}</p>
           </center>
         </div>
-        <div v-for="(results, gender) in data" :key="gender">
-          <center>
-            <div style="width: 60%; text-align:left;">
-              <H3>{{gender}}</H3>
-              <table>
-                <tr class="th">
-                  <td class="ctr">PLACE</td>
-                  <td class="ctr">BIB</td>
-                  <td class="ctr">NAME</td>
-                  <td class="ctr">AGE</td>
-                  <td class="ctr">TEAM</td>
-                  <td class="ctr">SCORE</td>
-                </tr>
-                <tr v-for="(result, index) in results" :key="index">
-                  <td class="ctr">{{result.place}}</td>
-                  <td class="ctr">{{result.bib}}</td>
-                  <td>{{result.name}}</td>
-                  <td class="ctr">{{result.age}}</td>
-                  <td class="ctr">{{result.team}}</td>
-                  <td class="ctr">{{result.score}}</td>
-                </tr>
-              </table>
-            </div>
-          </center>
-        </div>
+        <v-container class="results-table">
+          <v-row>
+            <v-col rows="12" md="8" offset-md="2">
+              <div v-for="(results, gender) in data" :key="gender">
+                <center>
+                  <div style="text-align:left;">
+                    <H3>{{gender}}</H3>
+                    <table width="100%">
+                      <tr class="th">
+                        <td class="ctr">PLACE</td>
+                        <td class="ctr">BIB</td>
+                        <td class="ctr">NAME</td>
+                        <td class="ctr">AGE</td>
+                        <td class="ctr">TEAM</td>
+                        <td class="ctr">SCORE</td>
+                      </tr>
+                      <tr v-for="(result, index) in results" :key="index">
+                        <td class="ctr">{{result.place}}</td>
+                        <td class="ctr">{{result.bib}}</td>
+                        <td>{{result.name}}</td>
+                        <td class="ctr">{{result.age}}</td>
+                        <td class="ctr">{{result.team}}</td>
+                        <td class="ctr">{{result.score}}</td>
+                      </tr>
+                    </table>
+                  </div>
+                </center>
+              </div>
+            </v-col>
+          </v-row>
+        </v-container>
       </v-col>
     </v-row>
   </v-container>
@@ -97,11 +103,13 @@ export default {
 
 </script>
 <style>
+  .results-table {
+    padding: 5px !important;
+  }
   td {
-    padding: 3px 10px !important;
+    padding: 3px!important;
   }
   .th > td {
-    background-color: #DDD;
     padding: 5px;
   }
   .ctr {
