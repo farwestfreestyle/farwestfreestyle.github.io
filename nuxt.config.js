@@ -5,8 +5,8 @@ export default {
   mode: 'universal',
   generate: {
     routes: [
-      '/events/archived-results/singles/2020-01-03'
-      '/events/archived-results/singles/2020-01-04'
+      '/events/archived-results/singles/2020-01-03',
+      '/events/archived-results/singles/2020-01-04',
       '/events/archived-results/duals/2020-01-04'
     ]
   },
