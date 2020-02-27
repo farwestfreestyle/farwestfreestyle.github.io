@@ -7,8 +7,9 @@
       <v-col sm="12" md="8">
         <div class="hdr">Results</div>
         <hr class="hrr"></hr>
-        <div v-for="result in results" :key="result.id">
-          <nuxt-link :to="getPath(result)">{{result.label}}</nuxt-link>
+        <div v-for="result in results" :key="result.id" class="result">
+          <a href target="pdf" :href="result.pdf" v-if="result.pdf">{{result.label}}</a>
+          <nuxt-link :to="getPath(result)" v-else>{{result.label}}</nuxt-link>
         </div>
       </v-col>
     </v-row>
@@ -32,6 +33,9 @@ export default {
   },
   methods: {
     getPath(result) {
+      if (result.pdf) {
+        return result.pdf;
+      }
       return `/events/archived-results/${result.type}/${result.date}`;
     }
   }
@@ -50,5 +54,12 @@ export default {
   }
   .selected:hover > div {
     text-decoration: none !important;
+  }
+  .result {
+    padding: 5px 0px;
+    border-bottom: 0px dotted #999;
+  }
+  .result:last-child {
+    border-bottom: 0px;
   }
 </style>

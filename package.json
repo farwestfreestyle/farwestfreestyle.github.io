@@ -5,6 +5,8 @@
   "author": "Angelo Calub",
   "private": true,
   "scripts": {
+    "process": "bin/process.js",
+    "postprocess": "npm test",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
@@ -33,7 +35,64 @@
         "date": "2020-01-04",
         "type": "duals",
         "label": "1/4/20 Saturday Duals, Shirley Lake Express, Squaw Valley"
+      },
+      {
+        "id": "2020-02-01",
+        "date": "2020-02-01",
+        "type":"singles",
+        "pdf":"/results/02-01-2020-jim-baldwin-memorial-male-female-singles.pdf",
+        "label": "2/1/2020 Jim Baldwin Memorial Saturday Singles Combined Results"
+      },
+      {
+        "id": "2020-02-02-singles",
+        "date": "2020-02-02",
+        "type":"singles",
+        "pdf":"/results/02-02-2020-jim-baldwin-memorial-male-female-singles.pdf",
+        "label": "2/2/2020 Jim Baldwin Memorial Sunday Singles Combined Results"
+      },
+      {
+        "id": "2020-02-02-duals",
+        "date": "2020-02-02",
+        "type":"duals",
+        "pdf":"/results/02-02-2020-jim-baldwin-memorial-duals.pdf",
+        "label": "2/2/2020 Jim Baldwin Memorial Sunday Duals Combined Results"
+      },
+      {
+        "id": "2020-02-22-male",
+        "date": "2020-02-22",
+        "type": "singles",
+        "pdf": "/results/02-22-20-female-single-results.pdf",
+        "label": "2/22/20 Divisional Championships Northstar Saturday Female Single Results"
+      },
+      {
+        "id": "2020-02-22-female",
+        "date": "2020-02-22",
+        "type": "singles",
+        "pdf": "/results/02-22-20-male-single-results.pdf",
+        "label": "2/22/20 Divisional Championships Northstar Saturday Male Single Results"
+      },
+      {
+        "id": "2020-02-23-male",
+        "date": "2020-02-23",
+        "type": "singles",
+        "pdf": "/results/02-23-2020-singles-female-results.pdf",
+        "label": "2/23/20 Divisional Championships Northstar Sunday Female Singles Results"
+      },
+      {
+        "id": "2020-02-23-female",
+        "date": "2020-02-23",
+        "type": "singles",
+        "pdf": "/results/02-23-2020-singles-male-results.pdf",
+        "label": "2/23/20 Divisional Championships Northstar Sunday Male Singles Results"
+      },
+      {
+        "id": "2020-02-23-duals",
+        "date": "2020-02-23",
+        "type": "duals",
+        "pdf": "/results/02-23-2020-duals-results.pdf",
+        "label": "2/23/20 Divisional Championships Northstar Sunday Male/Female Duals Results"
       }
+
     ]
   },
   "dependencies": {

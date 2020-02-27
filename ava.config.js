@@ -1,5 +1,5 @@
 export default {
-  require: ['./test/ava.setup.js'],
+  require: ['./ava.setup.js'],
   sources: ['**/*.{js,vue}'],
   babel: {
     testOptions: {

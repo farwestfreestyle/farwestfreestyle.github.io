@@ -14,7 +14,6 @@
             <p>We are governed by a <nuxt-link to="/about/board-of-directors">board of Directors</nuxt-link> consisting of parents of athletes, prior and current competitors, and representatives of the various ski clubs and freestyle teams. This group organizes events with the help of other parent volunteers and US Ski and Snowboard officials.</p>
             <p>Far West Freestyle events are financed by the membership dues and event fees collected through US Ski and Snowboard.</p>
             <p>We also receive the support of the generous sponsors listed below.</p>
-            <p>Insta here</p>
         </v-col>
       </v-row>
     </v-container>

@@ -49,7 +49,23 @@ export const state = () => ({
       access: 'Run TBD',
       start: "2020-02-22",
       end: "2020-02-23",
-      color: "green"
+      color: "green",
+      results: [{
+        id:'02-22-20-male',
+        label: 'Saturday Male Single Results',
+        path: '/results/02-22-20-male-single-results.pdf'
+      },
+      {
+        id:'02_22_2020-female',
+        label: 'Saturday Female Singles Results',
+        path: '/results/02-22-20-female-single-results.pdf'
+      },
+      {
+        id:'2020_02_23',
+        label: 'Sunday Combined Duals Results',
+        path: '/results/02-23-20-duals-results.pdf'
+      }]
+
     },
     {
       name: "Squaw Valley",
