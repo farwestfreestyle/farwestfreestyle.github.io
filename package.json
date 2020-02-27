@@ -1,6 +1,6 @@
 {
   "name": "farwest-freestyle",
-  "version": "1.33.0",
+  "version": "1.34.0",
   "description": "US Ski & Snowboard Farwest Freestyle Division",
   "author": "Angelo Calub",
   "private": true,
@@ -39,22 +39,22 @@
       {
         "id": "2020-02-01",
         "date": "2020-02-01",
-        "type":"singles",
-        "pdf":"/results/02-01-2020-jim-baldwin-memorial-male-female-singles.pdf",
+        "type": "singles",
+        "pdf": "/results/02-01-2020-jim-baldwin-memorial-male-female-singles.pdf",
         "label": "2/1/2020 Jim Baldwin Memorial Saturday Singles Combined Results"
       },
       {
         "id": "2020-02-02-singles",
         "date": "2020-02-02",
-        "type":"singles",
-        "pdf":"/results/02-02-2020-jim-baldwin-memorial-male-female-singles.pdf",
+        "type": "singles",
+        "pdf": "/results/02-02-2020-jim-baldwin-memorial-male-female-singles.pdf",
         "label": "2/2/2020 Jim Baldwin Memorial Sunday Singles Combined Results"
       },
       {
         "id": "2020-02-02-duals",
         "date": "2020-02-02",
-        "type":"duals",
-        "pdf":"/results/02-02-2020-jim-baldwin-memorial-duals.pdf",
+        "type": "duals",
+        "pdf": "/results/02-02-2020-jim-baldwin-memorial-duals.pdf",
         "label": "2/2/2020 Jim Baldwin Memorial Sunday Duals Combined Results"
       },
       {
@@ -92,7 +92,6 @@
         "pdf": "/results/02-23-2020-duals-results.pdf",
         "label": "2/23/20 Divisional Championships Northstar Sunday Male/Female Duals Results"
       }
-
     ]
   },
   "dependencies": {
