@@ -17,13 +17,19 @@ $ npm run dev
 $ npm run build
 $ npm run start
 
-## Commit and push changes to deveelopment branch
+## Commit and push changes to development branch
+$ git add .
+$ git commit -m "some new message"
+$ git push
+
 # generate static project
 $ npm run generate
 $ git checkout master
 
 ## Cleanup / update master
-$mv dist/* .
+$ rm -rf _nuxt, about, clubs, events, files, get-started, images, js, results
+$ mv dist/* .
+$ rm -rrf dist
 
 $ git add .
 $ git commit -m "latest version"
