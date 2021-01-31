@@ -1,9 +1,10 @@
-<template> <v-container style="min-height:750px">
+<template>
+  <v-container style="min-height:750px">
     <v-row>
       <v-col sm="12" md="4" class="pa-4 mt-6 d-none d-md-flex">
         <LefthandNav section="getStarted"></LefthandNav>
       </v-col>
-      <v-col cols="12" md="8">
+      <v-col sm="12" md="8">
         <div class="hdr">Athletes</div>
         <hr class="hrr"></hr>
         <ul>

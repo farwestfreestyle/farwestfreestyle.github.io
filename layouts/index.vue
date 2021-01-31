@@ -6,11 +6,11 @@
       app
     >
 		<v-list>
-      <v-list-group v-for="(section,s) in sections" :key="s" value="false">
+      <v-list-group v-for="(section,s) in sections" :key="key()" value="false">
         <template v-slot:activator>
           <v-list-item-title>{{sections[s].title}}</v-list-item-title>
         </template>
-        <v-list-item v-for="(link, l) in sections[s].links" :key="s" nuxt :href="link.link">
+        <v-list-item v-for="(link, l) in sections[s].links" :key="key()" nuxt :href="link.link">
           <v-list-item-title>{{link.title}}</v-list-item-title>
         </v-list-item>
       </v-list-group>
@@ -21,12 +21,12 @@
       <v-toolbar-title @click="goHome" class="top-logo">Farwest Freestyle</v-toolbar-title>
       <v-spacer></v-spacer>
 			<v-toolbar-items class="hidden-sm-and-down">
-				<v-menu offset-y v-for="(section,s) in sections" :key="s">
+				<v-menu offset-y v-for="(section,s) in sections" :key="key()">
 					<template v-slot:activator="{ on }">
 						<v-btn text dark v-on="on">{{ section.title }}<v-icon right>mdi-chevron-down</v-icon></v-btn>
 					</template>
 					<v-list>
-						<v-list-item v-for="(link,n) in sections[s].links" :key="n" :href="link.link" nuxt>
+						<v-list-item v-for="(link,n) in sections[s].links" :key="key()" :href="link.link" nuxt>
               <v-list-item-title>{{ link.title}}</v-list-item-title>
 						</v-list-item>
 					</v-list>
@@ -43,7 +43,7 @@
         </div>
         <v-carousel height="600" hide-delimiter-background show-arrows-on-hover class="hidden-sm-and-down">
           <v-carousel-item v-for="(item,i) in items"
-            :key="i"
+            :key="key()"
             :src="item.src"
             reverse-transition="fade-transition"
             transition="fade-transition">
@@ -83,6 +83,9 @@ export default {
 		},
   },
   methods: {
+    key() {
+      return Math.round(Math.random() * 10000);
+    },
     goHome (e) {
       this.$router.push('/');
     }
@@ -92,7 +95,7 @@ export default {
       return 'CALLING ALL RIPPERS';
     },
     showTitleSubtitle () {
-      return '2020 Schedule Posted!';
+      return '2021 Schedule Posted!';
     },
     showTitleAction () {
       return true;

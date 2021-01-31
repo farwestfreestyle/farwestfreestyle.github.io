@@ -21,9 +21,8 @@
           </v-toolbar>
           <v-calendar
             ref="calendar"
-            v-model="focus"
+            v-model="today"
             type="month"
-            :now="today"
             light
             :events="events"
             @click:event="showEvent"
@@ -79,7 +78,20 @@
             <b>EVENT DATES ARE SUBJECT TO CHANGE DUE TO CONDITIONS BEYOND OUR CONTROL.</b>
           </v-banner>
         </v-sheet>
-        <p class="western-pdf hidden-md-and-up"><a href="/files/western-states-freestyle-2019-2020-sc.pdf">Western Region/FIS Freestyle 2019/2020 Schedule</a></p>
+        <br>
+        <h3>Important Links</h3>
+        <br>
+        <v-list style="background-color: transparent;">
+          <v-list-item href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform?vc=0&c=0&w=1&flr=0&gxids=7628">
+            <v-list-item-title>FarWest Freestyle Competition<br>DAILY Check-in & Covid Questionnaire</v-list-item-title>
+          </v-list-item>
+          <v-list-item href="https://drive.google.com/file/d/1J1l35oLJLyI5EZ20O1tRJ557_phYa18P/view?usp=sharing">
+            <v-list-item-title>Competition Fact Sheet</v-list-item-title>
+          </v-list-item>
+          <v-list-item href="https://my.usskiandsnowboard.org">
+            <v-list-item-title>Register at my.usskiandsnowboard.org</v-list-item-title>
+          </v-list-item>
+        </v-list>
       </v-col>
     </v-row>
   </v-container>
@@ -95,7 +107,8 @@ export default {
   },
   data() {
     return {
-      focus: '2020-01-01',
+      focus: '',
+      today: '',
       start: null,
       end: null,
       selectedEvent: {},
@@ -105,6 +118,9 @@ export default {
   },
   mounted () {
     this.$refs.calendar.checkChange()
+    const t = moment().format('YYYY-MM-DD');
+    this.today = t; 
+    this.focus = t;
   },
   computed: {
     title () {
@@ -129,10 +145,7 @@ export default {
 				timeZone: 'UTC', month: 'long',
 			})
 		},
-    today() {
-      return moment().format('YYYY-MM-DD');
-    },
-    events() {
+        events() {
       return this.$store.getters.events;
     }
   },

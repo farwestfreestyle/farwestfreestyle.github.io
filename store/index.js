@@ -2,80 +2,22 @@
 export const state = () => ({
   events: [
     {
-      name: 'Squaw Valley',
+      name: 'Squaw Valley #1',
       title: 'Mogul Event #1 @ Squaw Valley',
-      details: 'This will be a Friday, Saturday event.',
-      start: '2020-01-03',
-      end: '2020-01-04',
-      color: 'blue',
-      results: [{
-        id:"2020_01_03",
-        label: 'Friday Results',
-        path: '/events/archived-results/singles/2020-01-03'
-      },
-      {
-        id:"2020_01_04",
-        label: 'Saturday Singles Results',
-        path: '/events/archived-results/singles/2020-01-04'
-      },
-      {
-        id:"2020_01_04",
-        label: 'Saturday Duals Results',
-        path: '/events/archived-results/duals/2020-01-04'
-      }]
-    },
-    {
-      name: 'Northstar',
-      title: 'Farwest Mogul Event #2 @ Northstar',
-      details: 'Please arrive early for training.',
-      access: 'Run TBD',
-      start: '2020-01-25',
-      end: '2020-01-26',
-      color: 'green'
-    },
-    {
-      name: 'Squaw Valley',
-      title: 'Farwest Mogul Event #3 @ Squaw Valley',
-      details: 'Please arrive early for training.',
-      access: 'Run TBD',
-      start: '2020-02-01',
-      end: '2020-02-02',
+      details: '<ul><li><a href="https://drive.google.com/file/d/1J1l35oLJLyI5EZ20O1tRJ557_phYa18P/view?usp=sharing" target="new">Competition Fact Sheet</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform" target="new">Competition DAILY Check-in and Covid-19 Questionnaire</a></li><li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li></ul>',
+      start: '2021-02-05',
+      end: '2021-02-05',
       color: 'blue'
     },
     {
-      name: 'Northstar',
-      title: 'Divisional Championships',
-      details: 'Divisional Champs at Northstar',
-      access: 'Run TBD',
-      start: "2020-02-22",
-      end: "2020-02-23",
-      color: "green",
-      results: [{
-        id:'02-22-20-male',
-        label: 'Saturday Male Single Results',
-        path: '/results/02-22-20-male-single-results.pdf'
-      },
-      {
-        id:'02_22_2020-female',
-        label: 'Saturday Female Singles Results',
-        path: '/results/02-22-20-female-single-results.pdf'
-      },
-      {
-        id:'2020_02_23',
-        label: 'Sunday Combined Duals Results',
-        path: '/results/02-23-20-duals-results.pdf'
-      }]
-
-    },
-    {
-      name: "Squaw Valley",
-      title: 'Farwest Spring Mogul Event',
-      details: "Final event of the year",
-      access: 'Run TBD',
-      start: "2020-04-04",
-      end: "2020-04-05",
+      name: 'Squaw Valley #2',
+      title: 'Mogul Event #2 @ Squaw Valley',
+      details: '<ul><li><a href="https://drive.google.com/file/d/1J1l35oLJLyI5EZ20O1tRJ557_phYa18P/view?usp=sharing" target="new">Competition Fact Sheet</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform" target="new">Competition DAILY Check-in and Covid-19 Questionnaire</a></li><li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li></ul>',
+      start: '2021-02-06',
+      end: '2021-02-06',
       color: 'blue'
     }
+
   ],
   sections: {
     getStarted: {
