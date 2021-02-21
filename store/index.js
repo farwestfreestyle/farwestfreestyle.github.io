@@ -2,19 +2,19 @@
 export const state = () => ({
   events: [
     {
-      name: 'Squaw Valley #1',
+      name: 'Squaw Valley Singles',
       title: 'Mogul Event #1 @ Squaw Valley',
       details: '<ul><li><a href="https://drive.google.com/file/d/1J1l35oLJLyI5EZ20O1tRJ557_phYa18P/view?usp=sharing" target="new">Competition Fact Sheet</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform" target="new">Competition DAILY Check-in and Covid-19 Questionnaire</a></li><li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li></ul>',
-      start: '2021-02-05',
-      end: '2021-02-05',
+      start: '2021-02-20',
+      end: '2021-02-20',
       color: 'blue'
     },
     {
-      name: 'Squaw Valley #2',
+      name: 'Squaw Valley #2 Duals',
       title: 'Mogul Event #2 @ Squaw Valley',
       details: '<ul><li><a href="https://drive.google.com/file/d/1J1l35oLJLyI5EZ20O1tRJ557_phYa18P/view?usp=sharing" target="new">Competition Fact Sheet</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform" target="new">Competition DAILY Check-in and Covid-19 Questionnaire</a></li><li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li></ul>',
-      start: '2021-02-06',
-      end: '2021-02-06',
+      start: '2021-02-21',
+      end: '2021-02-21',
       color: 'blue'
     }
 

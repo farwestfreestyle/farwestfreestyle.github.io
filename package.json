@@ -112,7 +112,15 @@
         "type": "duals",
         "pdf": "/results/02-23-2020-duals-results.pdf",
         "label": "2/23/2020 Divisional Championships Northstar Sunday Male/Female Duals Results"
+      },
+      {
+        "id": "2021-02-20-singles",
+        "date": "2021-02-20",
+        "type": "singles",
+        "pdf": "/results/02-20-2021-mens-womens-overall.pdf",
+        "label": "2/20/2021 Saturday Singles Combined Results, Red Dog Squaw Valley"
       }
+
     ]
   },
   "dependencies": {
