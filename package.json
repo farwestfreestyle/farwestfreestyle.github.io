@@ -119,8 +119,21 @@
         "type": "singles",
         "pdf": "/results/02-20-2021-mens-womens-overall.pdf",
         "label": "2/20/2021 Saturday Singles Combined Results, Red Dog Squaw Valley"
+      },
+           {
+        "id": "2021-02-21-singles",
+        "date": "2021-02-21",
+        "type": "singles",
+        "pdf": "/results/02-21-2021-singles-combined-results.pdf",
+        "label": "2/21/2021 Sunday Singles Combined Results, Red Dog Squaw Valley"
+      },
+      {
+        "id": "2021-02-21-duals",
+        "date": "2021-02-21",
+        "type": "duals",
+        "pdf": "/results/02-21-2021-duals-combined-results.pdf",
+        "label": "2/21/2021 Sunday Duals Combined Results, Red Dog Squaw Valley"
       }
-
     ]
   },
   "dependencies": {
