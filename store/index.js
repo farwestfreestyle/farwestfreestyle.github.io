@@ -2,6 +2,44 @@
 export const state = () => ({
   events: [
     {
+      name: 'Div Champs, Training',
+      title: '2021 Divisional Championships - Training',
+      details: `<ul>
+        <li><a href="https://ussa.us8.list-manage.com/track/click?u=ca84c900a95d64029044b420f&id=c8edce4fab&e=0e59411896" target="new">Competition Fact Sheet</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform" target="new">Competition DAILY Check-in and Covid-19 Questionnaire</a></li>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+      </ul>`,
+      start: '2021-03-05',
+      end: '2021-03-05',
+      color: 'blue'
+    },
+
+    {
+      name: 'Div Champs, Singles',
+      title: '2021 Divisional Championships - Singles',
+      details: `<ul>
+        <li><a href="https://ussa.us8.list-manage.com/track/click?u=ca84c900a95d64029044b420f&id=c8edce4fab&e=0e59411896" target="new">Competition Fact Sheet</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform" target="new">Competition DAILY Check-in and Covid-19 Questionnaire</a></li>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+      </ul>`,
+      start: '2021-03-06',
+      end: '2021-03-06',
+      color: 'blue'
+    },
+    {
+      name: 'Div Champs, Duals',
+      title: '2021 Divisional Championships - Duals',
+      details: `<ul>
+        <li><a href="https://ussa.us8.list-manage.com/track/click?u=ca84c900a95d64029044b420f&id=c8edce4fab&e=0e59411896" target="new">Competition Fact Sheet</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform" target="new">Competition DAILY Check-in and Covid-19 Questionnaire</a></li>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+      </ul>`,
+      start: '2021-03-07',
+      end: '2021-03-07',
+      color: 'blue'
+    },
+
+    {
       name: 'Squaw Valley Singles',
       title: 'Mogul Event #1 @ Squaw Valley',
       details: '<ul><li><a href="https://drive.google.com/file/d/1J1l35oLJLyI5EZ20O1tRJ557_phYa18P/view?usp=sharing" target="new">Competition Fact Sheet</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform" target="new">Competition DAILY Check-in and Covid-19 Questionnaire</a></li><li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li></ul>',
