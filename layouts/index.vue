@@ -34,21 +34,38 @@
 			</v-toolbar-items>
     </v-toolbar>
 		<v-content>
-      <v-container fluid class="ma-0 pa-0">
+      <v-container class="mx-auto pa-0">
         <div class="top-shadow hidden-sm-and-down"></div>
-        <div class="show-title hidden-sm-and-down">
-          <div class="pb-0 mb-0">{{ showTitleHeadline }}</div>
-          <div class="sub">{{ showTitleSubtitle }}</div>
-          <div class="mt-3"><v-btn color="primary" large nuxt to="/events/schedule">VIEW SCHEDULE</v-btn></div>
+        <div class="hidden-sm-and-down carousel-container">
+          <v-carousel cycle interval="8000" height="400" hide-delimiter-background show-arrows-on-hover>
+            <v-carousel-item v-for="(item,i) in items"
+              :key="key()"
+              :src="item.src"
+              reverse-transition="fade-transition"
+              transition="fade-transition"
+            >
+              <div :class="{'show-title': true, 'align-right': item.align === 'right', 'align-left': item.align === 'left'}">
+                <div class="pb-0 mb-0">{{ item.title }}</div>
+                <div class="sub">{{ item.subtitle }}</div>
+                <div :class="{'mt-3': true, 'd-none': !item.showButton}"><v-btn color="primary" large nuxt to="/events/schedule">VIEW SCHEDULE</v-btn></div>
+                <div :class="{judges: true, 'd-none': !item.showJudgesInfo}">
+                  <div>Become a Freestyle Judge</div>
+                  <ul>
+                    <li>$200/Day Stipend</li>
+                    <li>Free Lunch</li>
+                    <li>Complimentary Lift Ticket</li>
+                    <li>Great Community</li>
+                    <li>Fun!</li>
+                  </ul>
+                  <div class="questions">
+                    <div>QUESTIONS?</div>
+                    <div>BIGSEARCH@GMAIL.COM</div>
+                  </div>
+                </div>
+              </div>
+            </v-carousel-item>
+          </v-carousel>
         </div>
-        <v-carousel height="600" hide-delimiter-background show-arrows-on-hover class="hidden-sm-and-down">
-          <v-carousel-item v-for="(item,i) in items"
-            :key="key()"
-            :src="item.src"
-            reverse-transition="fade-transition"
-            transition="fade-transition">
-          </v-carousel-item>
-        </v-carousel>
       </v-container>
 			<v-container fluid class="main-area pa-0">
 				<v-row no-gutters justify="center">
@@ -72,9 +89,10 @@ export default {
 		drawer: false,
 		group: null,
     items: [
-      {src:'/images/hero/squaw-05.png'},
-      {src:'/images/hero/squaw-03.jpg'},
-      {src:'/images/hero/squaw-04.jpg'}
+      {src:'/images/hero/judges-flyer-01.png', align: 'left', title: "FARWEST FREESTYLE", subtitle: 'Is looking for you!', showButton: false, showJudgesInfo: true},
+      {src:'/images/hero/squaw-05.png', align: 'left', title: 'IT\'S GO TIME!', subtitle: '21/22 Schedule Posted!', showButton: true},
+      {src:'/images/hero/squaw-03.jpg', align: 'left', title: 'IT\'S GO TIME!', subtitle: '21/22 Schedule Posted', showButton: true},
+      {src:'/images/hero/squaw-04.jpg', align: 'right', title: 'IT\'S GO TIME!', subtitle: '21/22 Schedule Posted', showButton: true}
     ]
 	}),
 	watch: {
@@ -91,12 +109,6 @@ export default {
     }
   },
   computed: {
-    showTitleHeadline () {
-      return 'CALLING ALL RIPPERS';
-    },
-    showTitleSubtitle () {
-      return '2021 Schedule Posted!';
-    },
     showTitleAction () {
       return true;
     },
@@ -120,22 +132,42 @@ export default {
 
 </script>
 <style lang="scss">
-  .show-title {
+  .questions {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  .carousel-container {
+    height: 400px;
+    margin: 0px auto;
+  }
+  .align-right {
     position: absolute;
-    z-index: 2;
     top: 50px;
-    left: 60px;
+    z-index: 2;
+    right: 50px;
+  }
+  .align-left {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    left: 50px;
+  }
+  .show-title {
+    padding: 10px;
     & > div:first-child {
       font-family: 'Titillium Web', sans-serif;
-      font-weight: 600;
-      font-size: 310%;
-      color: black;
+      letter-spacing: 3px;
+      font-weight: 800;
+      font-size: 250%;
+      color: DarkRed;
+      text-shadow: 0 0 0.1em white, 0 0 0.1em white,  0 0 2em #FFFFFFDD;
     }
     & > div.sub {
       font-family: 'Titillium Web', sans-serif;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 175%;
       color: black;
+      text-shadow: 0 0 0.1em white, 0 0 0.1em white,  0 0 2em #FFFFFFDD;
       margin-top: -10px;
     }
   }
@@ -147,6 +179,7 @@ export default {
     position:absolute;
     z-index: 1;
     top: 0px;
+    left: 0px;
   }
   .v-toolbar {
     flex: 0 1 auto !important;
