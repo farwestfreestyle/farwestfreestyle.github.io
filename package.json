@@ -1,6 +1,6 @@
 {
   "name": "farwest-freestyle",
-  "version": "1.36.0",
+  "version": "1.37.0",
   "description": "US Ski & Snowboard Farwest Freestyle Division",
   "author": "Angelo Calub",
   "private": true,
@@ -120,7 +120,7 @@
         "pdf": "/results/02-20-2021-mens-womens-overall.pdf",
         "label": "2/20/2021 Saturday Singles Combined Results, Red Dog Squaw Valley"
       },
-           {
+      {
         "id": "2021-02-21-singles",
         "date": "2021-02-21",
         "type": "singles",
