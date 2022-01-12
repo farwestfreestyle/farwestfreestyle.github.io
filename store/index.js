@@ -16,6 +16,8 @@ export const state = () => ({
       title: 'Jan 8/9 Comp',
       details: `<ul>
         <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        <li><a href="/results/01-08-2022-singles-overall.pdf">Sat 1/8 Overall Results</a></li>
+        <li><a href="/results/01-08-2022-singles-by-age.pdf">Sat 1/8 Results by Age Group</a></li>
       </ul>`,
       start: '2022-01-08',
       end: '2022-01-09',

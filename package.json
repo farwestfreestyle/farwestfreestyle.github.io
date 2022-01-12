@@ -1,6 +1,6 @@
 {
   "name": "farwest-freestyle",
-  "version": "1.38.0",
+  "version": "1.39.0",
   "description": "US Ski & Snowboard Farwest Freestyle Division",
   "author": "Angelo Calub",
   "private": true,
@@ -18,7 +18,21 @@
   },
   "config": {
     "results": [
-      {
+        {
+        "id": "01-08-2022-singles-overall",
+        "date": "2022-01-08",
+        "type": "singles",
+        "label": "1/8/22 Saturday Singles, Red Dog, Palisades Tahoe",
+        "pdf": "/results/01-08-2022-singles-overall.pdf"
+      },
+     {
+        "id": "01-08-2022-singles-by-age",
+        "date": "2022-01-08",
+        "type": "singles",
+        "label": "1/8/22 Saturday Singles by age group, Red Dog, Palisades Tahoe",
+        "pdf": "/results/01-08-2022-singles-overall.pdf"
+      },
+     {
         "id": "2020-01-03-friday-singles",
         "date": "2020-01-03",
         "type": "singles",
