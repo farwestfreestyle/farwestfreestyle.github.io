@@ -1,6 +1,6 @@
 {
   "name": "farwest-freestyle",
-  "version": "1.39.0",
+  "version": "1.40.0",
   "description": "US Ski & Snowboard Farwest Freestyle Division",
   "author": "Angelo Calub",
   "private": true,
@@ -40,113 +40,134 @@
         "id": "2020-01-25",
         "date": "2020-01-25",
         "type": "singles",
-        "pdf": "/results/01-25-2020-singles-results.pdf",
+        "pdf": "/results/2020-01-25-singles-results.pdf",
         "label": "1/25/2020 Northstar Saturday Singles Combined Results"
       },
       {
         "id": "2020-01-26-singles",
         "date": "2020-01-26",
         "type": "singles",
-        "pdf": "/results/01-26-2020-singles-results.pdf",
+        "pdf": "/results/2020-01-26-singles-results.pdf",
         "label": "1/26/2020 Northstar Sunday Singles Combined Results"
       },
       {
         "id": "2020-01-26-duals",
         "date": "2020-01-26",
         "type": "singles",
-        "pdf": "/results/01-26-2020-duals-results.pdf",
+        "pdf": "/results/2020-01-26-duals-results.pdf",
         "label": "1/26/2020 Northstar Sunday Duals Combined Results"
       },
       {
         "id": "2020-02-01",
         "date": "2020-02-01",
         "type": "singles",
-        "pdf": "/results/02-01-2020-jim-baldwin-memorial-male-female-singles.pdf",
+        "pdf": "/results/2020-02-01-jim-baldwin-memorial-male-female-singles.pdf",
         "label": "2/1/2020 Jim Baldwin Memorial Saturday Singles Combined Results"
       },
       {
         "id": "2020-02-02-singles",
         "date": "2020-02-02",
         "type": "singles",
-        "pdf": "/results/02-02-2020-jim-baldwin-memorial-male-female-singles.pdf",
+        "pdf": "/results/2020-02-02-jim-baldwin-memorial-male-female-singles.pdf",
         "label": "2/2/2020 Jim Baldwin Memorial Sunday Singles Combined Results"
       },
       {
         "id": "2020-02-02-duals",
         "date": "2020-02-02",
         "type": "duals",
-        "pdf": "/results/02-02-2020-jim-baldwin-memorial-duals.pdf",
+        "pdf": "/results/2020-02-02-jim-baldwin-memorial-duals.pdf",
         "label": "2/2/2020 Jim Baldwin Memorial Sunday Duals Combined Results"
       },
       {
         "id": "2020-02-22-male",
         "date": "2020-02-22",
         "type": "singles",
-        "pdf": "/results/02-22-2020-female-single-results.pdf",
+        "pdf": "/results/2020-02-22-female-single-results.pdf",
         "label": "2/22/2020 Divisional Championships Northstar Saturday Female Single Results"
       },
       {
         "id": "2020-02-22-female",
         "date": "2020-02-22",
         "type": "singles",
-        "pdf": "/results/02-22-2020-male-single-results.pdf",
+        "pdf": "/results/2020-02-22-male-single-results.pdf",
         "label": "2/22/2020 Divisional Championships Northstar Saturday Male Single Results"
       },
       {
         "id": "2020-02-23-male",
         "date": "2020-02-23",
         "type": "singles",
-        "pdf": "/results/02-23-2020-singles-female-results.pdf",
+        "pdf": "/results/2020-02-23-singles-female-results.pdf",
         "label": "2/23/2020 Divisional Championships Northstar Sunday Female Singles Results"
       },
       {
         "id": "2020-02-23-female",
         "date": "2020-02-23",
         "type": "singles",
-        "pdf": "/results/02-23-2020-singles-male-results.pdf",
+        "pdf": "/results/2020-02-23-singles-male-results.pdf",
         "label": "2/23/2020 Divisional Championships Northstar Sunday Male Singles Results"
       },
       {
         "id": "2020-02-23-duals",
         "date": "2020-02-23",
         "type": "duals",
-        "pdf": "/results/02-23-2020-duals-results.pdf",
+        "pdf": "/results/2020-02-23-duals-results.pdf",
         "label": "2/23/2020 Divisional Championships Northstar Sunday Male/Female Duals Results"
       },
       {
         "id": "2021-02-20-singles",
         "date": "2021-02-20",
         "type": "singles",
-        "pdf": "/results/02-20-2021-mens-womens-overall.pdf",
+        "pdf": "/results/2021-02-20-mens-womens-overall.pdf",
         "label": "2/20/2021 Saturday Singles Combined Results, Red Dog Squaw Valley"
       },
       {
         "id": "2021-02-21-singles",
         "date": "2021-02-21",
         "type": "singles",
-        "pdf": "/results/02-21-2021-singles-combined-results.pdf",
+        "pdf": "/results/2021-02-21-singles-combined-results.pdf",
         "label": "2/21/2021 Sunday Singles Combined Results, Red Dog Squaw Valley"
       },
       {
         "id": "2021-02-21-duals",
         "date": "2021-02-21",
         "type": "duals",
-        "pdf": "/results/02-21-2021-duals-combined-results.pdf",
+        "pdf": "/results/2021-02-21-duals-combined-results.pdf",
         "label": "2/21/2021 Sunday Duals Combined Results, Red Dog Squaw Valley"
       },
      {
-        "id": "01-08-2022-singles-overall",
+        "id": "2022-01-08-singles-overall",
         "date": "2022-01-08",
         "type": "singles",
-        "label": "1/8/22 Saturday Singles, Red Dog, Palisades Tahoe",
-        "pdf": "/results/01-08-2022-singles-overall.pdf"
+        "label": "1/8/22 Saturday Singles Overall, Red Dog, Palisades Tahoe",
+        "pdf": "/results/2022-01-08-singles-overall.pdf"
      },
      {
-        "id": "01-08-2022-singles-by-age",
+        "id": "2022-01-08-singles-by-age",
         "date": "2022-01-08",
         "type": "singles",
-        "label": "1/8/22 Saturday Singles by age group, Red Dog, Palisades Tahoe",
-        "pdf": "/results/01-08-2022-singles-overall.pdf"
+        "label": "1/8/22 Saturday Singles by Age Group, Red Dog, Palisades Tahoe",
+        "pdf": "/results/2022-01-08-singles-by-age.pdf"
+      },
+      {
+        "id": "2022-01-09-singles-overall",
+        "date": "2022-01-09",
+        "type": "singles",
+        "label": "1/9/22 Sunday Singles Overall, Red Dog, Palisades Tahoe",
+        "pdf": "/results/2022-01-09-overall-results.pdf"
+     },
+     {
+        "id": "2022-01-09-by-age-results",
+        "date": "2022-01-09",
+        "type": "singles",
+        "label": "1/9/22 Sunday Singles by age group, Red Dog, Palisades Tahoe",
+        "pdf": "/results/2022-01-09-by-age-results.pdf"
+      },
+      {
+        "id": "2022-01-09-duals-results",
+        "date": "2022-01-09",
+        "type": "duals",
+        "label": "1/9/22 Sunday Duals, Red Dog, Palisades Tahoe",
+        "pdf": "/results/2022-01-09-duals-results.pdf"
       }
     ]
   },

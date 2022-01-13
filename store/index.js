@@ -23,7 +23,17 @@ export const state = () => ({
       end: '2022-01-09',
       color: 'blue'
     },
-
+    {
+      name: 'Farwest Educational Series',
+      title: 'Understanding the Judge\'s role',
+      details: `What makes up a final score?<br>
+      What are the specific duties of each judge?<br>
+      Rules of the Course: DNS, DNF, crossing the line, loss of ski, etc.<br>
+      <b>Wed 6-7p PST</b> <a href="https://us02web.zoom.us/j/84345956349?pwd=RENuMzBmN2QxRytydVY1Q2lLano5Zz09">zoom meeting</a>`,
+      start: '2022-01-19',
+      end: '2022-01-19',
+      color: 'blue'
+    },
     {
       name: 'Palisades Tahoe',
       title: 'Jan 22/23 Comp',

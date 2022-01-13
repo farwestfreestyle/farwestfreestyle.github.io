@@ -28,7 +28,9 @@ export default {
   },
   computed: {
     results() {
-      return pkg.config.results;
+      const arr = pkg.config.results;
+      const rev = arr.reverse();
+      return rev;
     }
   },
   methods: {
