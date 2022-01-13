@@ -138,35 +138,35 @@
         "id": "2022-01-08-singles-overall",
         "date": "2022-01-08",
         "type": "singles",
-        "label": "1/8/22 Saturday Singles Overall, Red Dog, Palisades Tahoe",
+        "label": "1/8/22 Saturday Singles Combined Results, Red Dog, Palisades Tahoe",
         "pdf": "/results/2022-01-08-singles-overall.pdf"
      },
      {
         "id": "2022-01-08-singles-by-age",
         "date": "2022-01-08",
         "type": "singles",
-        "label": "1/8/22 Saturday Singles by Age Group, Red Dog, Palisades Tahoe",
+        "label": "1/8/22 Saturday Singles Age Group Results, Red Dog, Palisades Tahoe",
         "pdf": "/results/2022-01-08-singles-by-age.pdf"
       },
       {
         "id": "2022-01-09-singles-overall",
         "date": "2022-01-09",
         "type": "singles",
-        "label": "1/9/22 Sunday Singles Overall, Red Dog, Palisades Tahoe",
+        "label": "1/9/22 Sunday Singles Combined Results, Red Dog, Palisades Tahoe",
         "pdf": "/results/2022-01-09-overall-results.pdf"
      },
      {
         "id": "2022-01-09-by-age-results",
         "date": "2022-01-09",
         "type": "singles",
-        "label": "1/9/22 Sunday Singles by age group, Red Dog, Palisades Tahoe",
+        "label": "1/9/22 Sunday Singles Age Group Results, Red Dog, Palisades Tahoe",
         "pdf": "/results/2022-01-09-by-age-results.pdf"
       },
       {
         "id": "2022-01-09-duals-results",
         "date": "2022-01-09",
         "type": "duals",
-        "label": "1/9/22 Sunday Duals, Red Dog, Palisades Tahoe",
+        "label": "1/9/22 Sunday Duals Combined Results, Red Dog, Palisades Tahoe",
         "pdf": "/results/2022-01-09-duals-results.pdf"
       }
     ]
