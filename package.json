@@ -168,6 +168,41 @@
         "type": "duals",
         "label": "1/9/22 Sunday Duals Combined Results, Red Dog, Palisades Tahoe",
         "pdf": "/results/2022-01-09-duals-results.pdf"
+      },
+      {
+        "id": "2022-01-22-female-overall",
+        "date": "2022-01-22",
+        "type": "singles",
+        "label": "1/22/22 Saturday Female Overall Singles Results, Red Dog, Palisades Tahoe",
+        "pdf": "/results/2022-01-22-female-overall.pdf"
+      },
+      {
+        "id": "2022-01-22-male-overall",
+        "date": "2022-01-22",
+        "type": "singles",
+        "label": "1/22/22 Saturday Male Overall Singles Results, Red Dog, Palisades Tahoe",
+        "pdf": "/results/2022-01-22-male-overall.pdf"
+      },
+      {
+        "id": "2022-01-23-female-overall",
+        "date": "2022-01-23",
+        "type": "singles",
+        "label": "1/23/22 Sunday Female Overall Singles Results, Red Dog, Palisades Tahoe",
+        "pdf": "/results/2022-01-23-female-overall.pdf"
+      },
+      {
+        "id": "2022-01-23-male-overall",
+        "date": "2022-01-23",
+        "type": "singles",
+        "label": "1/23/22 Sunday Male Overall Singles Results, Red Dog, Palisades Tahoe",
+        "pdf": "/results/2022-01-23-male-overall.pdf"
+      },
+      {
+        "id": "2022-01-23-duals",
+        "date": "2022-01-23",
+        "type": "duals",
+        "label": "1/23/22 Sunday Combined Duals Results, Red Dog, Palisades Tahoe",
+        "pdf": "/results/2022-01-23-duals-results.pdf"
       }
     ]
   },
