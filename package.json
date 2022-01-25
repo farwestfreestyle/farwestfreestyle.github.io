@@ -1,6 +1,6 @@
 {
   "name": "farwest-freestyle",
-  "version": "1.40.0",
+  "version": "1.41.0",
   "description": "US Ski & Snowboard Farwest Freestyle Division",
   "author": "Angelo Calub",
   "private": true,
@@ -18,7 +18,7 @@
   },
   "config": {
     "results": [
-     {
+      {
         "id": "2020-01-03-friday-singles",
         "date": "2020-01-03",
         "type": "singles",
@@ -134,14 +134,14 @@
         "pdf": "/results/2021-02-21-duals-combined-results.pdf",
         "label": "2/21/2021 Sunday Duals Combined Results, Red Dog Squaw Valley"
       },
-     {
+      {
         "id": "2022-01-08-singles-overall",
         "date": "2022-01-08",
         "type": "singles",
         "label": "1/8/22 Saturday Singles Combined Results, Red Dog, Palisades Tahoe",
         "pdf": "/results/2022-01-08-singles-overall.pdf"
-     },
-     {
+      },
+      {
         "id": "2022-01-08-singles-by-age",
         "date": "2022-01-08",
         "type": "singles",
@@ -154,8 +154,8 @@
         "type": "singles",
         "label": "1/9/22 Sunday Singles Combined Results, Red Dog, Palisades Tahoe",
         "pdf": "/results/2022-01-09-overall-results.pdf"
-     },
-     {
+      },
+      {
         "id": "2022-01-09-by-age-results",
         "date": "2022-01-09",
         "type": "singles",
