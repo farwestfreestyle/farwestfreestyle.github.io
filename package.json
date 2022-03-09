@@ -1,6 +1,6 @@
 {
   "name": "farwest-freestyle",
-  "version": "1.41.0",
+  "version": "1.42.0",
   "description": "US Ski & Snowboard Farwest Freestyle Division",
   "author": "Angelo Calub",
   "private": true,
@@ -36,10 +36,6 @@
         "type": "singles",
         "label": "1/3/20 Friday Singles, Shirley Lake Express, Squaw Valley"
       },
-
-
-
-
       {
         "id": "2020-01-03-friday-singles",
         "date": "2020-01-03",
@@ -247,7 +243,6 @@
         "label": "2/13/22 Sunday Duals Combined Results, Homewood, CA",
         "pdf": "/results/2022-02-13-homewood-duals.pdf"
       },
-
       {
         "id": "2022-03-05-champs-overall-female",
         "date": "2022-03-05",
@@ -262,7 +257,6 @@
         "label": "3/5/22 Saturday Div Championships Singles Male Results, Northstar, CA",
         "pdf": "/results/2022-03-05-champs-overall-male.pdf"
       },
-
       {
         "id": "2022-03-06-champs-singles-combined",
         "date": "2022-03-06",
