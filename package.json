@@ -25,6 +25,28 @@
         "label": "1/3/20 Friday Singles, Shirley Lake Express, Squaw Valley"
       },
       {
+        "id": "2020-01-03-friday-singles",
+        "date": "2020-01-03",
+        "type": "singles",
+        "label": "1/3/20 Friday Singles, Shirley Lake Express, Squaw Valley"
+      },
+      {
+        "id": "2022-02-03-friday-singles",
+        "date": "2020-01-03",
+        "type": "singles",
+        "label": "1/3/20 Friday Singles, Shirley Lake Express, Squaw Valley"
+      },
+
+
+
+
+      {
+        "id": "2020-01-03-friday-singles",
+        "date": "2020-01-03",
+        "type": "singles",
+        "label": "1/3/20 Friday Singles, Shirley Lake Express, Squaw Valley"
+      },
+      {
         "id": "2020-01-03-saturday-singles",
         "date": "2020-01-04",
         "type": "singles",
@@ -203,6 +225,57 @@
         "type": "duals",
         "label": "1/23/22 Sunday Combined Duals Results, Red Dog, Palisades Tahoe",
         "pdf": "/results/2022-01-23-duals-results.pdf"
+      },
+      {
+        "id": "2022-02-12-homewood-overall-combined",
+        "date": "2022-02-12",
+        "type": "singles",
+        "label": "2/12/22 Saturday Overall Combined Results, Homewood, CA",
+        "pdf": "/results/2022-02-12-homewood-overall-combined.pdf"
+      },
+      {
+        "id": "2022-02-13-homewood-singles",
+        "date": "2022-02-13",
+        "type": "singles",
+        "label": "2/13/22 Sunday Singles Combined Results, Homewood, CA",
+        "pdf": "/results/2022-02-13-homewood-singles.pdf"
+      },
+      {
+        "id": "2022-02-13-homewood-duals",
+        "date": "2022-02-13",
+        "type": "duals",
+        "label": "2/13/22 Sunday Duals Combined Results, Homewood, CA",
+        "pdf": "/results/2022-02-13-homewood-duals.pdf"
+      },
+
+      {
+        "id": "2022-03-05-champs-overall-female",
+        "date": "2022-03-05",
+        "type": "singles",
+        "label": "3/5/22 Saturday Div Championships Singles Female Results, Northstar, CA",
+        "pdf": "/results/2022-03-05-champs-overall-female.pdf"
+      },
+      {
+        "id": "2022-03-05-champs-overall-male",
+        "date": "2022-03-05",
+        "type": "singles",
+        "label": "3/5/22 Saturday Div Championships Singles Male Results, Northstar, CA",
+        "pdf": "/results/2022-03-05-champs-overall-male.pdf"
+      },
+
+      {
+        "id": "2022-03-06-champs-singles-combined",
+        "date": "2022-03-06",
+        "type": "singles",
+        "label": "3/6/22 Sunday Div Championships Singles Combined Results, Northstar, CA",
+        "pdf": "/results/2022-03-06-champs-singles-combined.pdf"
+      },
+      {
+        "id": "2022-03-06-champs-duals-combined",
+        "date": "2022-03-06",
+        "type": "duals",
+        "label": "3/6/22 Sunday Div Championships Duals Combined Results, Northstar, CA",
+        "pdf": "/results/2022-03-06-champs-duals-combined.pdf"
       }
     ]
   },

@@ -37,7 +37,7 @@
       <v-container class="mx-auto pa-0">
         <div class="top-shadow hidden-sm-and-down"></div>
         <div class="hidden-sm-and-down carousel-container">
-          <v-carousel cycle interval="8000" height="400" hide-delimiter-background show-arrows-on-hover>
+          <v-carousel cycle interval="8000" height="400" hide-delimiters show-arrows-on-hover>
             <v-carousel-item v-for="(item,i) in items"
               :key="key()"
               :src="item.src"
@@ -89,10 +89,14 @@ export default {
 		drawer: false,
 		group: null,
     items: [
-      {src:'/images/hero/judges-flyer-01.png', align: 'left', title: "FARWEST FREESTYLE", subtitle: 'Is looking for you!', showButton: false, showJudgesInfo: true},
-      {src:'/images/hero/squaw-05.png', align: 'left', title: 'IT\'S GO TIME!', subtitle: '21/22 Schedule Posted!', showButton: true},
-      {src:'/images/hero/squaw-03.jpg', align: 'left', title: 'IT\'S GO TIME!', subtitle: '21/22 Schedule Posted', showButton: true},
-      {src:'/images/hero/squaw-04.jpg', align: 'right', title: 'IT\'S GO TIME!', subtitle: '21/22 Schedule Posted', showButton: true}
+      {src:'/images/hero/img14.png', showButton: false},
+      {src:'/images/hero/img7.png', showButton: false},
+      {src:'/images/hero/img15.png', showButton: false},
+      {src:'/images/hero/img13.png', showButton: false},
+      {src:'/images/hero/img12.png', showButton: false},
+      {src:'/images/hero/img11.png', showButton: false},
+      {src:'/images/hero/img9.png', showButton: false },
+      {src:'/images/hero/img10.png', showButton: false},
     ]
 	}),
 	watch: {

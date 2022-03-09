@@ -176,7 +176,7 @@ export const state = () => ({
     { title: "Chair", name: "Sebastien Cayolle", email: "sebastien.cayolle@gmail.com" },
     { title: "Co-Chair & Technical Delegate", name: "Erick Panelli", email: "epanelli@wntrucking.com", phone: "(775) 745-2516" },
     { title: "Secretary & Chief of Scoring", name: "Lana Tam",  email: "lana.lee.tam@gmail.com" },
-    { title: "Treasurer", name: "Fiona Gersh", email: "fionagersh@gmail.com" },
+    { title: "Treasurer", name: "Silvia Edwards", email: "sferroni@alumni.stanford.edu" },
     { title: "Head Judge",  name: "Chuck Search",  email: "bigsearch@gmail.com" },
     { title: "Head of Fund-Raising & Community", name: "Brooks Rohlen", email: "brookio@gmail.com" },
     { title: "Head of Development & Growth", name: "Amy Tewksbury-Warren", email: "awarren2@vailresorts.com" },
