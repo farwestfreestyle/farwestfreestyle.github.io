@@ -1,7 +1,57 @@
 
 export const state = () => ({
   events: [
- {
+    {
+      name: 'Northstar Season Opener',
+      title: 'Dec 16-18, 2022',
+      details:`<ul>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        </ul>`,
+      start: '2022-12-16',
+      end: '2022-12-18',
+      color: 'blue'
+    },
+    {
+      name: 'Palisades Tahoe',
+      title: 'Jan 26-29, 2023',
+      details:`<ul>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        </ul>`,
+      start: '2023-01-26',
+      end: '2023-01-29',
+      color: 'blue'
+    },
+    {
+      name: 'Northstar CA ',
+      title: 'Feb 18-20, 2023',
+      details:`<ul>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        </ul>`,
+      start: '2023-02-18',
+      end: '2023-02-20',
+      color: 'blue'
+    },
+    {
+      name: 'Northstar, Divisional Championships ',
+      title: 'Mar 3-5, 2023',
+      details:`<ul>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        </ul>`,
+      start: '2023-03-03',
+      end: '2023-03-05',
+      color: 'blue'
+    },
+    {
+      name: 'Palisades Tahoe Spring Event',
+      title: 'Apr 8-9, 2023',
+      details:`<ul>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        </ul>`,
+      start: '2023-04-08',
+      end: '2023-04-09',
+      color: 'blue'
+    },
+    {
       name: '2021 US Freestyle Selections',
       title: 'Winter Park, CO (Dec 16-21, 2021)',
       details: `National Event, Invite Only.<br/><ul>
@@ -157,7 +207,7 @@ export const state = () => ({
       title: "Clubs",
       icon: 'clubs-icon',
       links: [
-        { title: "Squaw Valley Freestyle", link: "/clubs/squaw" },
+        { title: "Olympic Valley Freestyle", link: "/clubs/squaw" },
         { title: "Northstar", link: "/clubs/northstar" }
       ]
     },
