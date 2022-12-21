@@ -6,6 +6,8 @@ export const state = () => ({
       title: 'Dec 16-18, 2022',
       details:`<ul>
         <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        <li><a href="/results/2022-12-17-singles-overall.pdf">Sat 12/17 Overall Results</a></li>
+        <li><a href="/results/2022-12-17-singles-age-group.pdf">Sat 12/17 Results by Age Group</a></li>
         </ul>`,
       start: '2022-12-16',
       end: '2022-12-18',
