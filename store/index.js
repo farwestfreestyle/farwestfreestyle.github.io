@@ -2,6 +2,64 @@
 export const state = () => ({
   events: [
     {
+      name: 'Palisades Tahoe Season Opener',
+      title: 'Jan 6-7, 2024',
+      details: `<ul>
+        <li>Training Friday 1/5/24</li>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        </ul>`,
+      start: '2024-01-06',
+      end: '2024-01-07',
+      color: 'blue'
+    },
+    {
+      name: 'Northstar CA',
+      title: 'Jan 20-21, 2024',
+      details: `<ul>
+        <li>Training Friday 1/19/24</li>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        </ul>`,
+      start: '2024-01-20',
+      end: '2024-01-21',
+      color: 'blue'
+    },
+    {
+      name: 'Northstar CA',
+      title: 'Feb 18-19, 2024',
+      details: `<ul>
+        <li>Presidents' Day Comp
+        <li>Training Saturday 2/17/24</li>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        </ul>`,
+      start: '2024-02-18',
+      end: '2024-02-19',
+      color: 'blue'
+    },
+    {
+      name: 'Palisades Tahoe',
+      title: 'Mar 9-10, 2024',
+      details: `<ul>
+        <li>Divisional Championships</li>
+        <li>Training Friday 3/8/24</li>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        </ul>`,
+      start: '2024-03-09',
+      end: '2024-03-10',
+      color: 'blue'
+    },
+    {
+      name: 'Palisades Tahoe',
+      title: 'Apr 6-7, 2024',
+      details: `<ul>
+        <li>Farwest Season Finale Spring Comp</li>
+        <li>Training Friday 4/5/24</li>
+        <li><a href="https://my.usskiandsnowboard.org" target="new">Register @ my.usskiandsnowboard.org</a></li>
+        </ul>`,
+      start: '2024-04-06',
+      end: '2024-04-07',
+      color: 'blue'
+    },
+    {
       name: 'Northstar Season Opener',
       title: 'Dec 16-18, 2022',
       details:`<ul>
@@ -185,7 +243,7 @@ export const state = () => ({
       end: '2020-04-03',
       color: 'blue'
     }
-  ], 
+  ],
   sections: {
     getStarted: {
       title: "Get Started",
@@ -241,7 +299,7 @@ export const getters = {
   events: (state, getters) => {
     return state.events;
   },
-  sections: (state, getters) => { 
+  sections: (state, getters) => {
     return state.sections;
   },
   getSection: (state) => (key) => {
