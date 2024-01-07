@@ -82,9 +82,6 @@
         <h3>Important Links</h3>
         <br>
         <v-list style="background-color: transparent;">
-          <v-list-item href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform?vc=0&c=0&w=1&flr=0&gxids=7628">
-            <v-list-item-title>FarWest Freestyle Competition<br>DAILY Check-in & Covid Questionnaire</v-list-item-title>
-          </v-list-item>
           <v-list-item href="https://adminskiracing.com">
             <v-list-item-title>Register at adminskiracing.com</v-list-item-title>
           </v-list-item>

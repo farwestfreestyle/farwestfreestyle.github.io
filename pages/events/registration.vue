@@ -8,7 +8,7 @@
         <div class="hdr">Event Registration</div>
         <hr class="hrr"></hr>
         <h4 class="my-5">REGISTER FOR AN EVENT</h4>
-        <p>Registration is done through U.S. Ski & Snowboard. The athlete must <a href="https://my.ussa.org/myussa">join U.S. Ski & Snowboard</a> as a competitor to register for an event.</p>
+        <p>Registration is done through <a href="https://adminskiracing.com">adminskiracing.com</a> . The athlete must <a href="https://my.ussa.org/myussa">join U.S. Ski & Snowboard</a> as a competitor to register for an event.</p>
         <ul>
           <li>Fees for regular events are $55 per day.</li>
           <li>Fees for Divisional Championships are $65 per day.</li>
@@ -30,12 +30,12 @@
         <h4 class="my-5">THE DAY OF AN EVENT</h4>
         <p>On the 1st day of an event, the competitor must check-in  with a parent/guardian before 8:30 am. The check-in desk is generally attended by the Chief of Scoring and/or the Treasurer. Returning athletes must bring their bib to check-in to confirm their place in the run-order.</p>
 
-        <p>Please note that the check-in process is distinct from registration. Registration is only possible online at <a href="https://my.ussa.org">my.ussa.org</a></p>
+        <p>Please note that the check-in process is distinct from registration. Registration is only possible online at <a href="https://adminskiracing.com">adminskiracing.com</a></p>
 
         <p>At Squaw Valley, the check-in desk is located by the fireplace next to Dave’s Deli.</p>
 
         <p>At Northstar, the check-in desk is located inside the gondola building next to the over-night storage.</p>
-         
+
         <v-banner light class="mt-5">
           <v-avatar slot="icon" color="red accent-4" size="40">
             <v-icon icon="mdi-alert" color="white">mdi-alert</v-icon>
