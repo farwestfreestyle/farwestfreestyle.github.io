@@ -7,7 +7,7 @@
       <v-col sm="12" md="8" class="pb-10">
         <div class="hdr">Schedule</div>
         <hr class="hrr"></hr>
-        <v-sheet height="400"> 
+        <v-sheet height="400">
 					<v-toolbar flat color="#728EBF">
 						<v-btn outlined class="mr-4" @click="setToday">Today</v-btn>
 						<v-btn fab text small @click="prev">
@@ -88,8 +88,8 @@
           <v-list-item href="https://drive.google.com/file/d/1J1l35oLJLyI5EZ20O1tRJ557_phYa18P/view?usp=sharing">
             <v-list-item-title>Competition Fact Sheet</v-list-item-title>
           </v-list-item>
-          <v-list-item href="https://my.usskiandsnowboard.org">
-            <v-list-item-title>Register at my.usskiandsnowboard.org</v-list-item-title>
+          <v-list-item href="https://adminskiracing.com">
+            <v-list-item-title>Register at adminskiracing.com</v-list-item-title>
           </v-list-item>
         </v-list>
       </v-col>
@@ -119,7 +119,7 @@ export default {
   mounted () {
     this.$refs.calendar.checkChange()
     const t = moment().format('YYYY-MM-DD');
-    this.today = t; 
+    this.today = t;
     this.focus = t;
   },
   computed: {

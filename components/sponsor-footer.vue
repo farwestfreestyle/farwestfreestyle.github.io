@@ -2,16 +2,14 @@
   <footer>
     <v-container>
       <v-row justify="center" align="center" class="sponsors">
-        <a href="https://shanemcconkey.org/"><v-img contain src="/images/sm-shane.png" max-height="100" max-width="100" border="0"></v-img></a>
-        <a href="https://www.aon.com"><v-img contain max-height="75" max-width="150" src="/images/aon.png" border="0"></v-img></a>
-        <a href="https://www.tahoegetaways.com"><v-img contain max-height="118" max-width="200" src="/images/tahoe-getaways.png" border="0"></v-img></a>
-        <a href="https://www.palisadestahoe.com/events-and-activities/dining-and-apres/wildflour"><v-img contain max-height="75" max-width="150" src="/images/sm-wildflour.png" border="0"></v-img></a>
-        <a href="https://charitysmith.org"><v-img contain max-height="75" max-width="267"src="/images/charitysmith.png" border="0"></v-img></a>
-        <v-img contain max-height="75" max-width="200"src="/images/ajax-health.png" border="0"></v-img>
-        <a href="https://www.swifturgentclinic.com"><v-img contain max-height="100" max-width="180"src="/images/sm-swift-urgent-care.png" border="0"></v-img></a>
+        <a href="https://https://www.mountainlotusyoga.com"><v-img contain src="/images/mountain-lotus-yoga.png" max-height="150" max-width="150" border="0"></v-img></a>
+        <v-img contain src="/images/ovfree-logo.png" max-height="150" max-width="150" border="0"></v-img>
+        <a href="https://www.idoneusa.com/default.asp"><v-img contain max-height="60" max-width="230" src="/images/idone-logo.svg" border="0"></v-img></a>
+        <a href="https://www.tahoesportshub.com"><v-img contain max-height="150" max-width="150" src="/images/tahoe-sportshub-logo.svg" border="0"></v-img></a>
+        <a href="https://www.northstarcalifornia.com/plan-your-trip/ski-and-ride-lessons/search-results.aspx"><v-img contain max-height="150" max-width="150"src="/images/northstar-logo.svg" border="0"></v-img></a>
       </v-row>
       <v-row>
-        <v-col cols="12" sm="6" class="sm-text">&copy; FARWEST FREESTYLE 2021-2022 All Rights Reserved.</v-col>
+        <v-col cols="12" sm="6" class="sm-text">&copy; FARWEST FREESTYLE 2024 All Rights Reserved.</v-col>
         <v-col cols="12" sm="6" class="version">VERSION {{ version }}</v-col>
       </v-row>
     </v-container>
@@ -41,8 +39,9 @@
       font-size: 70%;
     }
     .sponsors div {
-      margin: 5px;
+      margin: 0px;
       cursor: pointer;
+      justify-content: space-between !important;
     }
   }
 </style>
