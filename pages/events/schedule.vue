@@ -85,9 +85,6 @@
           <v-list-item href="https://docs.google.com/forms/d/e/1FAIpQLSeJv6TcaPMYyoAHrToy2RJZoGO44aM-2TYGg42HTzakDYaTig/viewform?vc=0&c=0&w=1&flr=0&gxids=7628">
             <v-list-item-title>FarWest Freestyle Competition<br>DAILY Check-in & Covid Questionnaire</v-list-item-title>
           </v-list-item>
-          <v-list-item href="https://drive.google.com/file/d/1J1l35oLJLyI5EZ20O1tRJ557_phYa18P/view?usp=sharing">
-            <v-list-item-title>Competition Fact Sheet</v-list-item-title>
-          </v-list-item>
           <v-list-item href="https://adminskiracing.com">
             <v-list-item-title>Register at adminskiracing.com</v-list-item-title>
           </v-list-item>
