@@ -9,6 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "cleanup": "rm -rf _nuxt about clubs events files get-started images js results",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "test": "ava",
     "test:unit": "cross-env TEST=unit ava --config unit.config.js",
