@@ -14,6 +14,18 @@ export const state = () => ({
       color: 'blue'
     },
     {
+      name: 'Northstar January Comp #2',
+      title: 'Jan 25-26, 2025',
+      details: `<ul>
+        <li><a href="https://adminskiracing.com" target="new">Register @ adminskiracing.com</a></li>
+        <li><a href="/files/jan-2024-jim-baldwin-memorial-program.pdf" target="new">Competition Fact Sheet</a></li>
+        <li><a href="/files/jan-2024-jim-baldwin-schedule.pdf" target="new">Competition Schedule</a></li>
+        </ul>`,
+      start: '2025-01-25',
+      end: '2025-01-26',
+      color: 'blue'
+    },
+    {
       name: 'Palisades Tahoe Jim Baldwin Memorial',
       title: 'Jan 14-15, 2024',
       details: `<ul>
