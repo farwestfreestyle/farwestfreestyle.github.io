@@ -4,32 +4,44 @@ FarWest Freestyle website
 deployed using github pages
 Application is using master branch
 
-## Build Setup
+## Development Setup
 
+### Step 1) install dependencies
 ``` bash
-# install dependencies
 $ npm run install
-
-# serve with hot reload at localhost:3000
+```
+### Step 2) Serve with hot reload at localhost:3000
+``` bash
 $ npm run dev
+```
+## Save Change and Deploy to Live Site
 
-## Commit and push changes to development branch
+### Step 1) Commit and push changes to development branch
+``` bash
 $ git add .
 $ git commit -m "some new message"
-
-## version bump
+```
+### Step 2) Bump minor version
+``` bash
 $ npm version minor
-
-## push changes to development branch
+```
+### Step 3) Push changes to development branch
+``` bash
 $ git push
+```
 
-# generate static project
+### Step 4) Generate static project
+``` bash
 $ npm run generate
+```
 
-## Switch to master branch where site is deployed using github pages
+### Step 5) Switch to master branch where site is deployed using github pages
+``` bash
 $ git checkout master
+```
 
-## Update from dist directory 
+### Step 6) Update from dist directory
+``` bash
 $ rm -rf _nuxt, about, clubs, events, files, get-started, images, js, results
 $ mv dist/* .
 $ rm -rf dist
@@ -38,8 +50,8 @@ $ git add .
 $ git commit -m "latest version"
 
 $ git push
-
-## Verify site is updated at www.farwestfreestyle.com
 ```
+
+### Step 7) Verify site is updated at www.farwestfreestyle.com
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
