@@ -6,8 +6,6 @@ export const state = () => ({
       title: 'Jan 11-12, 2025',
       details: `<ul>
         <li><a href="https://adminskiracing.com" target="new">Register @ adminskiracing.com</a></li>
-        <li><a href="/files/jan-2024-jim-baldwin-memorial-program.pdf" target="new">Competition Fact Sheet</a></li>
-        <li><a href="/files/jan-2024-jim-baldwin-schedule.pdf" target="new">Competition Schedule</a></li>
         </ul>`,
       start: '2025-01-11',
       end: '2025-01-12',
@@ -18,11 +16,50 @@ export const state = () => ({
       title: 'Jan 25-26, 2025',
       details: `<ul>
         <li><a href="https://adminskiracing.com" target="new">Register @ adminskiracing.com</a></li>
-        <li><a href="/files/jan-2024-jim-baldwin-memorial-program.pdf" target="new">Competition Fact Sheet</a></li>
-        <li><a href="/files/jan-2024-jim-baldwin-schedule.pdf" target="new">Competition Schedule</a></li>
         </ul>`,
       start: '2025-01-25',
       end: '2025-01-26',
+      color: 'blue'
+    },
+    {
+      name: 'Palisades Tahoe Comp #3',
+      title: 'Feb 1-2, 2025',
+      details: `<ul>
+        <li><a href="https://adminskiracing.com" target="new">Register @ adminskiracing.com</a></li>
+        </ul>`,
+      start: '2025-02-01',
+      end: '2025-02-02',
+      color: 'blue'
+    },
+    {
+      name: '2025 Farwest Divisional’s, Northstar',
+      title: 'Mar 8-9, 2025',
+      details: `<ul>
+        <li><a href="https://adminskiracing.com" target="new">Register @ adminskiracing.com</a></li>
+        </ul>`,
+      start: '2025-03-08',
+      end: '2025-03-09',
+      color: 'blue'
+    },
+    {
+      name: '2025 US Freestyle Nationals @ Palisades Tahoe',
+      title: 'Mar 28-30, 2025',
+      details: `<ul>
+          <li>Invite Only.</li>
+        </ul>`,
+      start: '2025-03-28',
+      end: '2025-03-30',
+      color: 'blue'
+    },
+
+    {
+      name: 'Spring Event',
+      title: 'Apr 12-13, 2025',
+      details: `<ul>
+        <li><a href="https://adminskiracing.com" target="new">Register @ adminskiracing.com</a></li>
+        </ul>`,
+      start: '2025-04-12',
+      end: '2025-04-13',
       color: 'blue'
     },
     {
